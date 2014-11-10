@@ -186,7 +186,7 @@
     
     <div class="row">
       <div class="sidebar sidebar-collapse">
-        <?php print render($page['sub-navigation']); ?>
+        <?php print render($page['sidebar']); ?>
       </div>
       <div class="main-text">
         <?php print $messages; ?>
