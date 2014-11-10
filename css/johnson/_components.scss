@@ -1,0 +1,110 @@
+// HOURS
+// -------------------------
+
+.hours {
+	background: $tan;
+	display: inline-block;
+	margin-top: -1px;
+	h1 {
+		font-size: 14px;
+		text-transform: uppercase;
+		margin: 0 .75em 0 0;
+		font-weight: 700;
+		float: left;
+		line-height: 1.4em;
+		i {
+			color: $cornell-primary;
+		}
+	}
+	.today-hours {
+		float: left;
+		padding: 5px 0 5px 5px;
+		margin: 5px;
+	}
+	.all-hours-link {
+		padding-left: 1em;
+		border-left: 1px solid $pale-tan;
+		float: left;
+		padding: 5px 5px 5px 10px;
+		margin: 5px;
+	}
+	a {
+		color: black;
+		i {
+			color: $johnson-red;
+			font-size: 75%;
+			margin-left: .5em;
+		}
+	}
+	// ul {
+	// 	list-style: none;
+	// 	margin: 0;
+	// 	padding: 0;
+	// }
+	// li {
+	// 	font-size: 14px;
+	// 	margin: 0 0 .25em;
+	// }
+}
+
+// FEATURED CONTENT
+// -------------------------
+.featured-content {
+	padding: 40px 0;
+	background: white;
+}
+.feature {
+	@include make-sm-column(6);
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	img.pull-left {
+		margin: 0 1em 1em 0;
+	}
+	a {
+		color: $dark-gray;
+		i {
+			font-size: 75%;
+			margin-left: .5em;
+			color: $johnson-red;
+		}
+	}
+	p {
+		font-size: 18px;
+	}
+	h3 {
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin: 0 0 1em;
+	}
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.hours {
+		float: right;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+
+}

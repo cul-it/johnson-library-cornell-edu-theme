@@ -1,0 +1,79 @@
+// RESOURCE TABS
+// -------------------------
+.resource-tabs {
+	.nav-tabs {
+		border-bottom: 0;
+		li {
+			font-size: 20px;
+			i {
+				font-size: 75%;
+				margin-left: .5em;
+			}
+		}
+	}
+	.nav-tabs > li > a {
+		padding: 15px 20px;
+		border-radius: 0;
+		border: 0;
+		text-decoration: none;
+		color: $charcoal-gray;
+		background: $pale-tan;
+		margin-right: 0;
+	}
+	.nav-tabs > li > a:hover {
+		color: black;
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+		border: 0;
+		color: black;
+		background: white;
+	}
+}
+.resource-content,
+.panel {
+	background: $pale-tan;
+	.tab-pane {
+		background: white;
+		padding: 1.5em 0;
+	}
+	.tab-content,
+	.panel-body {
+		.gutter {
+			padding: 20px;
+		}
+		h2 {
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 700;
+			margin: 0 0 1em 0;
+		}
+		h2.search-header {
+			text-transform: none;
+			font-size: 20px;
+			font-weight: normal;
+		}
+		.btn-jgsm {
+			font-size: 18px;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			li {
+				font-size: 18px;
+				margin: 0 0 .25em;
+			}
+			a {
+				color: $dark-gray;
+				i {
+					font-size: 75%;
+					margin-left: .5em;
+					color: $johnson-red;
+				}
+			}
+		}
+		.form-control {
+			margin-bottom: 2em;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+name = Johnson Library
+description = A Bootstrap Sub-theme.
+core = 7.x
+base theme = bootstrap
+
+; Global regions
+regions[navigation]     = 'Navigation'
+regions[mobile-nav]   	= 'Mobile Navigation'
+regions[sub-navigation] = 'Sub Navigation'
+regions[search]     	= 'Search'
+regions[content]        = 'Content'
+regions[sidebar]        = 'Sidebar'
+regions[footer]   		= 'Footer'
+
+; Stylesheets
+; style.css is referenced in html.tpl.php because when it's loaded via @import statement in Drupal, respond.js doesn't work so IE8 users only see the mobile layout
+; see this jira issue for more info: https://issues.library.cornell.edu/browse/CULWEBDEVTEAM-431
+; stylesheets[all][] = css/style.css
+
+; Scripts
+; scripts[] = js/bootstrap.min.js
+scripts[] = js/bootstrap-tabcollapse.js
