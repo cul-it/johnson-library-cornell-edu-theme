@@ -6905,10 +6905,6 @@ a {
 a:hover {
   color: #2e2e2e; }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "pf_dintext_probold"; }
-
 .main-text h2:first-child {
   margin-top: 0; }
 
@@ -7065,7 +7061,7 @@ img {
     color: #605648; }
   .breadcrumb li.active {
     color: black;
-    font-family: "pf_dintext_probold"; }
+    font-weight: 700; }
 
 footer {
   border-top: solid 1px #d1d1d2;
