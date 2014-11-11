@@ -7158,6 +7158,11 @@ footer {
 .nav > li > a {
   padding: 5px 15px; }
 
+.sidebar .block-title {
+  background: #dbdbdc;
+  color: black;
+  font-size: 18px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .navigation-collapse {
