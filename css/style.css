@@ -7072,7 +7072,7 @@ img {
     font-size: 14px; }
   .breadcrumb a {
     color: #605648; }
-  .breadcrumb li.active a {
+  .breadcrumb li.active {
     color: black;
     font-family: "pf_dintext_probold"; }
 
