@@ -12,6 +12,12 @@ regions[content]        = 'Content'
 regions[sidebar]        = 'Sidebar'
 regions[footer]   		= 'Footer'
 
+; Tab regions
+regions[databases-tab]  = 'Databases Tab'
+regions[books-tab]  	= 'Books and Journals Tab'
+regions[guides-tab]  	= 'Guides and FAQ Tab'
+regions[help-tab]  		= 'Help Tab'
+
 ; Stylesheets
 ; style.css is referenced in html.tpl.php because when it's loaded via @import statement in Drupal, respond.js doesn't work so IE8 users only see the mobile layout
 ; see this jira issue for more info: https://issues.library.cornell.edu/browse/CULWEBDEVTEAM-431
