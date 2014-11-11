@@ -154,7 +154,7 @@
 	}
 	.navbar-brand {
 		padding: 15px;
-		font-size: 48px;
+		font-size: 42px;
 		margin-bottom: .75em;
 	}
 }
@@ -167,4 +167,10 @@
 	// 		margin-top: 3em;
 	// 	}
 	// }
+}
+// /* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg) {
+	.navbar-brand {
+		font-size: 48px;
+	}
 }
