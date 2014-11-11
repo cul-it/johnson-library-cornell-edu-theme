@@ -7115,7 +7115,8 @@ footer {
   .navbar .nav li {
     font-size: 16px;
     text-transform: uppercase;
-    margin-right: .25em; }
+    margin-right: .25em;
+    float: left; }
     .navbar .nav li a {
       color: #333;
       text-decoration: none;
