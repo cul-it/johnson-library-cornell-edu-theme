@@ -3,7 +3,7 @@
 <div class="search-collapse collapse">
   <div class="container">
     <div class="header-search">
-      <?php print render($page['navigation']); ?>
+      <?php print render($page['search']); ?>
     </div>
   </div>
 </div>
