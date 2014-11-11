@@ -109,11 +109,12 @@
 
 
 
-<!-- <footer>
+<footer>
   <div class="container">
     <div class="row">
       <div class="footer-block">
-        <h4>Johnson Library</h4>
+        <?php print render($page['footer1']); ?>
+        <!-- <h4>Johnson Library</h4>
         <ul class="nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">Databases</a></li>
@@ -123,10 +124,11 @@
           <li><a href="#">Workshops</a></li>
           <li><a href="#">My Account</a></li>
           <li><a href="#">Help</a></li>
-        </ul>
+        </ul> -->
       </div>
       <div class="footer-block">
-        <h4>Additional Resources</h4>
+        <?php print render($page['footer2']); ?>
+        <!-- <h4>Additional Resources</h4>
         <ul class="nav">
           <li><a href="#">Check Email</a></li>
           <li><a href="#">Net Print</a></li>
@@ -135,18 +137,20 @@
           <li><a href="#">Faculty and PhD</a></li>
           <li><a href="#">Alumni and Friends</a></li>
           <li><a href="#">Visitors</a></li>
-        </ul>
+        </ul> -->
       </div>
       <div class="footer-block">
-        <h4>Johnson School</h4>
+        <?php print render($page['footer3']); ?>
+        <!-- <h4>Johnson School</h4>
         <ul class="nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">Events</a></li>
           <li><a href="#">JConnect</a></li>
-        </ul>
+        </ul> -->
       </div>
       <div class="footer-block">
-        <p><strong>Samuel Curtis Johnson<br>
+        <?php print render($page['footer4']); ?>
+        <!-- <p><strong>Samuel Curtis Johnson<br>
           Management Library</strong>
         </p>
         <p>Sage Hall Cornell University<br>
@@ -155,18 +159,11 @@
         <p>
           Phone: (607)255-3389
           <a href="mgtref@cornell.edu">mgtref@cornell.edu</a>
-        </p>
+        </p> -->
       </div>
     </div>
   </div>
-</footer> -->
-    
-
-<footer>
-  <div class="container">
-    <?php print render($page['footer']); ?>
-    </div>
-  </footer>
+</footer>
 
 <?php print render($page['bottom']); ?>
 
