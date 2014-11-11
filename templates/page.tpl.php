@@ -29,7 +29,7 @@
   </div>
 </div>
 
-<div class="navbar-collapse collapse hidden-sm hidden-md hidden-lg">
+<div class="navbar-collapse collapse visible-xs">
   <div class="navbar-nav">
     <?php print render($page['mobile-nav']); ?>
   </div>
