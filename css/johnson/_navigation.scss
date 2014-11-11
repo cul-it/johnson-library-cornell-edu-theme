@@ -79,9 +79,12 @@
 // -------------------------
 .sidebar {
 	.block-title {
-		background: #dbdbdc;
-		color: black;
-		font-size: 18px;
+		a {
+			background: #dbdbdc;
+			color: black;
+			font-size: 18px;
+			padding: 10px 15px;
+		}
 	}
 }
 

@@ -45,7 +45,8 @@
 	padding: 2em 0;
 }
 .main-text {
-	@include make-sm-column(9);
+	@include make-sm-column(8);
+	@include make-sm-column-offset(1);
 	padding: 2em 0;
 }
 .main-content {
