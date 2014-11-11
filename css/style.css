@@ -7324,6 +7324,9 @@ footer {
   .panel .panel-body .form-control {
     margin-bottom: 2em; }
 
+.front .tab-content {
+  margin-bottom: 1.5em; }
+
 body.admin-menu {
   padding-top: 0 !important; }
 
