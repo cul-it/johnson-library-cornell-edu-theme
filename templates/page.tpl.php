@@ -29,11 +29,11 @@
   </div>
 </div>
 
-<div class="navigation-collapse collapse visible-xs">
+<div class="navigation-collapse collapse">
   <div class="navbar-nav">
     <?php print render($page['mobile-nav']); ?>
   </div>
-</div><!--/.navbar-collapse-->
+</div><!--/.navigation-collapse-->
 
 <div class="image-wrapper">
   <div class="navbar" role="navigation">
