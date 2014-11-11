@@ -7101,6 +7101,8 @@ footer {
     background: inherit;
     color: black;
     text-decoration: underline; }
+  footer .login-link {
+    margin: 2em 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
