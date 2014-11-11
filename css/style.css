@@ -7051,7 +7051,8 @@ img {
     color: white;
     font-size: 48px;
     margin: 0;
-    line-height: 1; }
+    line-height: 1;
+    font-family: 'pf_dintext_proregular'; }
 
 .breadcrumb {
   background: inherit;
