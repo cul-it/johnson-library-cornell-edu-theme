@@ -177,7 +177,7 @@
         <h3>Featured resource: Financial Times</h3>
         <div class="row">
           <div class="col-sm-4">
-            <img src="images/ft-logo.png" alt="">
+            <img src="/sites/all/themes/johnsonlibrary/img/ft-logo.png" alt="">
           </div>
           <div class="col-sm-8">
             <p><a href="#">Register for online access to FT.com<i class="fa fa-chevron-right"></i></a></p>
@@ -188,7 +188,7 @@
         <h3>About the Management Library</h3>
         <div class="row">
           <div class="col-sm-6">
-            <img src="images/HomeCarousel-thumb-color-01.jpg" alt="">
+            <img src="/sites/all/themes/johnsonlibrary/img/HomeCarousel-thumb-color-01.jpg" alt="">
           </div>
           <div class="col-sm-6">
             <p>The Johnson Graduate School of Management Library collection includes material on the business disciplines, including accounting, commerce, corporate data, economics, entrepreneurship, finance, investments, leadership, management, marketing, organizational behavior and quantitative methods.</p>
