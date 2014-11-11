@@ -7002,7 +7002,7 @@ img {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     .brand {
       float: left;
       width: 50%; } }
@@ -7012,7 +7012,7 @@ img {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
-  @media (min-width: 992px) {
+  @media (min-width: 768px) {
     .navigation {
       float: left;
       width: 50%; } }
