@@ -76,13 +76,12 @@
   </div>
 </div><!--/image-wrapper-->
 
-<div class="resource-content hidden-xs">
+<!-- <div class="resource-content hidden-xs">
   <div class="container">
 
-    <!-- Tab panes -->
-    <div class="tab-content">
+    <div class="tab-content"> -->
       <!--Databases-->
-      <div role="tabpanel" class="tab-pane active" id="databases">
+      <!-- <div role="tabpanel" class="tab-pane active" id="databases">
         <h1 class="sr-only">Databases</h1>
         <div class="row">
           <div class="col-sm-4">
@@ -125,9 +124,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!--Books-->
-      <div role="tabpanel" class="tab-pane" id="books">
+      <!-- <div role="tabpanel" class="tab-pane" id="books">
         <h1 class="sr-only">Books and Journals</h1>
         <div class="row">
           <div class="col-sm-8">
@@ -156,18 +155,18 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!--Guides and FAQ-->
-      <div role="tabpanel" class="tab-pane" id="guides">
+      <!-- <div role="tabpanel" class="tab-pane" id="guides">
         Guides and FAQ
-      </div>
+      </div> -->
       <!--Help-->
-      <div role="tabpanel" class="tab-pane" id="help">
+      <!-- <div role="tabpanel" class="tab-pane" id="help">
         Help
       </div>
     </div>
   </div>
-</div><!--/resource-content-->
+</div> --><!--/resource-content-->
 
 <div class="page-header">
   <div class="container">
