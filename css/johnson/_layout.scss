@@ -62,7 +62,7 @@
 		font-size: 48px;
 		margin: 0;
 		line-height: 1;
-		font-family: 'pf_dintext_proregular';
+		font-family: $font-family-sans-serif;
 	}
 }
 .breadcrumb {
@@ -72,6 +72,15 @@
 	margin-bottom: 10px;
 	li {
 		font-size: 14px;
+	}
+	a {
+		color: #605648;
+	}
+	li.active {
+		a {
+			color: black;
+			font-family: $font-family-bold;
+		}
 	}
 }
 

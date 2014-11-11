@@ -7061,7 +7061,7 @@ img {
     font-size: 48px;
     margin: 0;
     line-height: 1;
-    font-family: 'pf_dintext_proregular'; }
+    font-family: "pf_dintext_proregular", arial, san-serif; }
 
 .breadcrumb {
   background: inherit;
@@ -7070,6 +7070,11 @@ img {
   margin-bottom: 10px; }
   .breadcrumb li {
     font-size: 14px; }
+  .breadcrumb a {
+    color: #605648; }
+  .breadcrumb li.active a {
+    color: black;
+    font-family: "pf_dintext_probold"; }
 
 footer {
   border-top: solid 1px #d1d1d2;
