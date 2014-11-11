@@ -6913,7 +6913,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "pf_dintext_proregular", arial, san-serif; }
+  font-family: "pf_dintext_probold"; }
 
 p, li {
   font-size: 16px; }
