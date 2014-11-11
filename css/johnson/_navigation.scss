@@ -84,7 +84,14 @@
 			color: black;
 			font-size: 18px;
 			padding: 10px 15px;
+			display: block;
 		}
+		a:hover {
+			text-decoration: none;
+		}
+	}
+	.nav > li > a {
+		border-bottom: solid 1px #d3d2d2;
 	}
 }
 

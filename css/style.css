@@ -7165,7 +7165,12 @@ footer {
   background: #dbdbdc;
   color: black;
   font-size: 18px;
-  padding: 10px 15px; }
+  padding: 10px 15px;
+  display: block; }
+.sidebar .block-title a:hover {
+  text-decoration: none; }
+.sidebar .nav > li > a {
+  border-bottom: solid 1px #d3d2d2; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
