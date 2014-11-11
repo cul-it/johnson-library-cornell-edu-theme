@@ -21,7 +21,7 @@
         <button class="btn btn-default" data-toggle="collapse" data-target=".search-collapse">
           <i class="fa fa-search"></i>
         </button>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navigation-collapse">
           <i class="fa fa-bars"></i>
         </button>
       </div>
@@ -29,7 +29,7 @@
   </div>
 </div>
 
-<div class="navbar-collapse collapse visible-xs">
+<div class="navigation-collapse collapse visible-xs">
   <div class="navbar-nav">
     <?php print render($page['mobile-nav']); ?>
   </div>

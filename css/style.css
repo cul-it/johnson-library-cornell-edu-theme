@@ -7140,11 +7140,8 @@ footer {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .navbar-collapse {
+  .navigation-collapse {
     padding-right: 0; }
-
-  .navbar-collapse.collapse {
-    display: none !important; }
 
   .navbar-brand,
   .navbar-brand:hover {
