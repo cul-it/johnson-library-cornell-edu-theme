@@ -98,27 +98,10 @@
   <div class="container">
     <div class="row">
       <div class="feature">
-        <h3>Featured resource: Financial Times</h3>
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="/sites/all/themes/johnsonlibrary/img/ft-logo.png" alt="">
-          </div>
-          <div class="col-sm-8">
-            <p><a href="#">Register for online access to FT.com<i class="fa fa-chevron-right"></i></a></p>
-          </div>
-        </div>
+        <?php print render($page['feature1']); ?>
       </div>
       <div class="feature">
-        <h3>About the Management Library</h3>
-        <div class="row">
-          <div class="col-sm-6">
-            <img src="/sites/all/themes/johnsonlibrary/img/HomeCarousel-thumb-color-01.jpg" alt="">
-          </div>
-          <div class="col-sm-6">
-            <p>The Johnson Graduate School of Management Library collection includes material on the business disciplines, including accounting, commerce, corporate data, economics, entrepreneurship, finance, investments, leadership, management, marketing, organizational behavior and quantitative methods.</p>
-            <p class="text-right"><a href="#">Learn more<i class="fa fa-chevron-right"></i></a></p>
-          </div>
-        </div>
+        <?php print render($page['feature2']); ?>
       </div>
     </div>
   </div>

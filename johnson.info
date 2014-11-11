@@ -19,6 +19,10 @@ regions[books-tab]  	= 'Books and Journals Tab'
 regions[guides-tab]  	= 'Guides and FAQ Tab'
 regions[help-tab]  		= 'Help Tab'
 
+; Home page regions
+regions[feature1]  		= 'Featured content 1'
+regions[feature2]  		= 'Featured content 2'
+
 ; Stylesheets
 ; style.css is referenced in html.tpl.php because when it's loaded via @import statement in Drupal, respond.js doesn't work so IE8 users only see the mobile layout
 ; see this jira issue for more info: https://issues.library.cornell.edu/browse/CULWEBDEVTEAM-431
