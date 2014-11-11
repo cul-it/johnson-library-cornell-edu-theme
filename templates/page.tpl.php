@@ -45,13 +45,7 @@
         </div>
         <div class="navigation">
           <div class="hours">
-            <div class="today-hours">
-              <h1><i class="fa fa-clock-o"></i> Today's Hours</h1>
-              8:30am-8:30pm
-            </div>
-            <div class="all-hours-link">
-              <a href="#">See all hours<i class="fa fa-chevron-right"></i></a>
-            </div>
+            <?php print render($page['header']); ?>
           </div>
           <div class="hidden-xs">
             <div class="navbar-nav">

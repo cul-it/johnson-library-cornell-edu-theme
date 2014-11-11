@@ -4,6 +4,7 @@ core = 7.x
 base theme = bootstrap
 
 ; Global regions
+regions[header]   		= 'Header'
 regions[navigation]     = 'Navigation'
 regions[mobile-nav]   	= 'Mobile Navigation'
 regions[sub-navigation] = 'Sub Navigation'
