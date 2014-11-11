@@ -79,6 +79,7 @@
 // -------------------------
 .sidebar {
 	.block-title {
+		margin-bottom: 0;
 		a {
 			background: #dbdbdc;
 			color: black;
@@ -92,6 +93,10 @@
 	}
 	.nav > li > a {
 		border-bottom: solid 1px #d3d2d2;
+	}
+	.nav > li > a:hover {
+		background: inherit;
+		text-decoration: underline;
 	}
 }
 
