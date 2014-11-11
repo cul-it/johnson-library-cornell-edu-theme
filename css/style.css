@@ -6909,6 +6909,9 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "pf_dintext_probold"; }
 
+.main-text h2:first-child {
+  margin-top: 0; }
+
 p, li {
   font-size: 16px; }
 
@@ -7019,7 +7022,7 @@ img {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  padding: 2em 0; }
+  padding: 3em 0; }
   @media (min-width: 768px) {
     .sidebar {
       float: left;
@@ -7030,7 +7033,7 @@ img {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  padding: 2em 0; }
+  padding: 3em 0; }
   @media (min-width: 768px) {
     .main-text {
       float: left;
