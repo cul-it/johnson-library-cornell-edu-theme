@@ -3,6 +3,7 @@
 .resource-tabs {
 	.nav-tabs {
 		border-bottom: 0;
+		margin-bottom: 0;
 		li {
 			font-size: 20px;
 			i {
@@ -10,7 +11,7 @@
 				margin-left: .5em;
 			}
 		}
-		//force tab styling on sub pages
+		// this whole part forces tab styling on sub pages, when using databases menu in region
 		.nav > li > a {
 			padding: 15px 20px;
 			border-radius: 0;
@@ -27,6 +28,9 @@
 			border: 0;
 			color: black;
 			background: white;
+		}
+		.nav > li {
+			float: left;
 		}
 	}
 	.nav-tabs > li > a {

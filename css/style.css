@@ -7273,7 +7273,8 @@ footer {
     float: right; } }
 /* Medium devices (desktops, 992px and up) */
 .resource-tabs .nav-tabs {
-  border-bottom: 0; }
+  border-bottom: 0;
+  margin-bottom: 0; }
   .resource-tabs .nav-tabs li {
     font-size: 20px; }
     .resource-tabs .nav-tabs li i {
@@ -7293,6 +7294,8 @@ footer {
     border: 0;
     color: black;
     background: white; }
+  .resource-tabs .nav-tabs .nav > li {
+    float: left; }
 .resource-tabs .nav-tabs > li > a {
   padding: 15px 20px;
   border-radius: 0;
