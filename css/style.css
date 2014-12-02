@@ -7279,6 +7279,20 @@ footer {
     .resource-tabs .nav-tabs li i {
       font-size: 75%;
       margin-left: .5em; }
+  .resource-tabs .nav-tabs .nav > li > a {
+    padding: 15px 20px;
+    border-radius: 0;
+    border: 0;
+    text-decoration: none;
+    color: #686868;
+    background: #efede9;
+    margin-right: 0; }
+  .resource-tabs .nav-tabs .nav > li > a:hover {
+    color: black; }
+  .resource-tabs .nav-tabs .nav > li.active > a, .resource-tabs .nav-tabs .nav > li.active > a:hover, .resource-tabs .nav-tabs .nav > li.active > a:focus {
+    border: 0;
+    color: black;
+    background: white; }
 .resource-tabs .nav-tabs > li > a {
   padding: 15px 20px;
   border-radius: 0;
