@@ -59,7 +59,9 @@
 
   <div class="resource-tabs">
     <div class="container">'
-      <?php print render($page['databases-nav']); ?>
+      <div class="nav-tabs">
+        <?php print render($page['databases-nav']); ?>
+      </div>
       <!-- Nav tabs -->
       <!-- <ul class="nav nav-tabs" role="tablist" id="myTab">
         <li role="presentation" class="active"><a href="#databases" role="tab" data-toggle="tab">Databases<i class="fa fa-chevron-down"></i></a></li>
