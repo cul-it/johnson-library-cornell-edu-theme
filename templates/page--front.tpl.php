@@ -81,7 +81,7 @@
         $block = module_invoke('block', 'block', 'view', '16');
         print $block['content'];
         ?>
-        <!--<?php print render($page['databases-tab']); ?>-->
+        
       </div>
       <div role="tabpanel" class="tab-pane" id="books">
         <?php print render($page['books-tab']); ?>
