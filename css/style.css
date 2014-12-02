@@ -7376,6 +7376,11 @@ footer {
 .front .tab-content {
   margin-bottom: 1.5em; }
 
+.books-search .form-group {
+  width: 75%;
+  float: left;
+  margin-right: .25em; }
+
 body.admin-menu {
   padding-top: 0 !important; }
 
