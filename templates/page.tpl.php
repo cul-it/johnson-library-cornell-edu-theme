@@ -58,14 +58,15 @@
   </div>
 
   <div class="resource-tabs">
-    <div class="container">
+    <div class="container">'
+      <?php print render($page['databases-nav']); ?>
       <!-- Nav tabs -->
-      <ul class="nav nav-tabs" role="tablist" id="myTab">
+      <!-- <ul class="nav nav-tabs" role="tablist" id="myTab">
         <li role="presentation" class="active"><a href="#databases" role="tab" data-toggle="tab">Databases<i class="fa fa-chevron-down"></i></a></li>
         <li role="presentation"><a href="#books" role="tab" data-toggle="tab">Books and Journals<i class="fa fa-chevron-down"></i></a></li>
         <li role="presentation"><a href="#guides" role="tab" data-toggle="tab">Guides and FAQ<i class="fa fa-chevron-down"></i></a></li>
         <li role="presentation"><a href="#help" role="tab" data-toggle="tab">Help<i class="fa fa-chevron-down"></i></a></li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </div><!--/image-wrapper-->
