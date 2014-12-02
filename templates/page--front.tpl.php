@@ -131,5 +131,8 @@
 <?php print render($page['bottom']); ?>
 
 <script type="text/javascript">
-  jQuery(document).ready(function(('#myTab').tabCollapse());
+  (function ($) {
+    $('#myTab').tabCollapse();
+  })(jQuery);
+
 </script>
