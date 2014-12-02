@@ -77,7 +77,11 @@
     <!-- Tab panes -->
     <div class="tab-content">
       <div role="tabpanel" class="tab-pane active" id="databases">
-        <?php print render($page['databases-tab']); ?>
+        <?php
+        $block = module_invoke('block', 'block', 'view', '16');
+        print $block['content'];
+        ?>
+        <!--<?php print render($page['databases-tab']); ?>-->
       </div>
       <div role="tabpanel" class="tab-pane" id="books">
         <?php print render($page['books-tab']); ?>
