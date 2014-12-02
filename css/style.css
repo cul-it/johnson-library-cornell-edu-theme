@@ -7380,6 +7380,8 @@ footer {
   width: 75%;
   float: left;
   margin-right: .25em; }
+.books-search .btn-jgsm {
+  font-size: 14px !important; }
 
 body.admin-menu {
   padding-top: 0 !important; }
