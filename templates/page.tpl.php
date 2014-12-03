@@ -241,5 +241,11 @@
 <?php print render($page['bottom']); ?>
 
 <script type="text/javascript">
-  $('#myTab').tabCollapse();
+  (function ($) {
+    $('[data-toggle=tab]').click(function(){
+      if ($(this).parent().hasClass('active')){
+        $($(this).attr("href")).toggleClass('active');
+      }
+    })
+  })(jQuery);
 </script>
