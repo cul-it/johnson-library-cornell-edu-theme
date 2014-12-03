@@ -76,7 +76,7 @@
 
     <!-- Tab panes -->
     <div class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="databases">
+      <div role="tabpanel" class="tab-pane" id="databases">
         <?php print render($page['databases-tab']); ?>
       </div>
       <div role="tabpanel" class="tab-pane" id="books">
