@@ -61,7 +61,7 @@
     <div class="container">
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" role="tablist" id="myTab">
-        <li role="presentation" class="active"><a href="#databases" role="tab" data-toggle="tab">Databases<i class="fa fa-chevron-down"></i></a></li>
+        <li role="presentation"><a href="#databases" role="tab" data-toggle="tab">Databases<i class="fa fa-chevron-down"></i></a></li>
         <li role="presentation"><a href="#books" role="tab" data-toggle="tab">Books and Journals<i class="fa fa-chevron-down"></i></a></li>
         <li role="presentation"><a href="#guides" role="tab" data-toggle="tab">Guides and FAQ<i class="fa fa-chevron-down"></i></a></li>
         <li role="presentation"><a href="#help" role="tab" data-toggle="tab">Help<i class="fa fa-chevron-down"></i></a></li>
@@ -93,99 +93,6 @@
     </div>
   </div>
 </div><!--/resource-content-->
-
-
-<!-- <div class="resource-content hidden-xs">
-  <div class="container">
-
-    <div class="tab-content"> -->
-      <!--Databases-->
-      <!-- <div role="tabpanel" class="tab-pane active" id="databases">
-        <h1 class="sr-only">Databases</h1>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="gutter">
-              <h2>Popular Databases</h2>
-              <ul>
-                <li><a href="#">ThomasOne (IE Only)<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">Factiva<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">Capital IQ<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">Hoover's Online<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">Business Source Complete<i class="fa fa-chevron-right"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="gutter">
-              <h2>Go directly to a database</h2>
-              <form>
-                <select class="form-control">
-                  <option>Select a database</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-              </fron>
-              <h2>Popular Topics</h2>
-              <ul>
-                <li><a href="#">analyst reports<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">careers<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">company<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">finance<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">industry<i class="fa fa-chevron-right"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="gutter">
-              <a class="btn btn-jgsm pull-right">See all databases<i class="fa fa-chevron-right"></i></a>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!--Books-->
-      <!-- <div role="tabpanel" class="tab-pane" id="books">
-        <h1 class="sr-only">Books and Journals</h1>
-        <div class="row">
-          <div class="col-sm-8">
-            <div class="gutter">
-              <h2 class="search-header">Search for books, articles, databases, journals and more</h2>
-              <form class="form-horizontal" role="form">
-                <div class="form-group">
-                  <label for="searchbox" class="sr-only">Search</label>
-                  <div class="col-sm-10">
-                    <input type="searchbox" class="form-control" id="searchbox" placeholder="Search">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="gutter">
-              <h2>Library Resources</h2>
-              <ul>
-                <li><a href="#">Catalog<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">Articles &amp; Full-Text<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">Databases<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">E-journals<i class="fa fa-chevron-right"></i></a></li>
-                <li><a href="#">Images<i class="fa fa-chevron-right"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!--Guides and FAQ-->
-      <!-- <div role="tabpanel" class="tab-pane" id="guides">
-        Guides and FAQ
-      </div> -->
-      <!--Help-->
-      <!-- <div role="tabpanel" class="tab-pane" id="help">
-        Help
-      </div>
-    </div>
-  </div>
-</div> --><!--/resource-content-->
 
 <div class="page-header">
   <div class="container">
