@@ -58,27 +58,42 @@
   </div>
 
   <div class="resource-tabs">
-    <div class="container">'
-      <!-- Tab panes -->
-      <div class="tab-content">
-        <div role="tabpanel" class="tab-pane" id="databases">
-          <?php print render($page['databases-tab']); ?>
-        </div>
-        <div role="tabpanel" class="tab-pane" id="books">
-          <?php print render($page['books-tab']); ?>
-        </div>
-        <!--Guides and FAQ-->
-        <div role="tabpanel" class="tab-pane" id="guides">
-          <?php print render($page['guides-tab']); ?>
-        </div>
-        <!--Help-->
-        <div role="tabpanel" class="tab-pane" id="help">
-          <?php print render($page['help-tab']); ?>
-        </div>
+    <div class="container">
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist" id="myTab">
+        <li role="presentation" class="active"><a href="#databases" role="tab" data-toggle="tab">Databases<i class="fa fa-chevron-down"></i></a></li>
+        <li role="presentation"><a href="#books" role="tab" data-toggle="tab">Books and Journals<i class="fa fa-chevron-down"></i></a></li>
+        <li role="presentation"><a href="#guides" role="tab" data-toggle="tab">Guides and FAQ<i class="fa fa-chevron-down"></i></a></li>
+        <li role="presentation"><a href="#help" role="tab" data-toggle="tab">Help<i class="fa fa-chevron-down"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</div><!--/image-wrapper-->
+
+<div class="resource-content hidden-xs">
+  <div class="container">
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="databases">
+        <?php print render($page['databases-tab']); ?>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="books">
+        <?php print render($page['books-tab']); ?>
+      </div>
+      <!--Guides and FAQ-->
+      <div role="tabpanel" class="tab-pane" id="guides">
+        <?php print render($page['guides-tab']); ?>
+      </div>
+      <!--Help-->
+      <div role="tabpanel" class="tab-pane" id="help">
+        <?php print render($page['help-tab']); ?>
       </div>
     </div>
   </div>
-</div><!--/image-wrapper-->
+</div><!--/resource-content-->
+
 
 <!-- <div class="resource-content hidden-xs">
   <div class="container">
