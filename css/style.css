@@ -7163,6 +7163,9 @@ footer {
 .nav > li > a {
   padding: 5px 15px; }
 
+.nav-mobile {
+  float: none; }
+
 .sidebar .block-title {
   margin-bottom: 0; }
   .sidebar .block-title a {

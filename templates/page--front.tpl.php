@@ -29,7 +29,7 @@
   </div>
 </div>
 
-<div class="navigation-collapse collapse">
+<div class="navigation-collapse collapse nav-mobile">
   <div class="navbar-nav">
     <?php print render($page['mobile-nav']); ?>
   </div>
