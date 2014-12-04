@@ -79,7 +79,9 @@
 	padding: 5px 15px;
 }
 .nav-mobile {
-	float: none;
+	.navbar-nav {
+		float: none;
+	}
 }
 
 // SIDEBAR NAVIGATION
