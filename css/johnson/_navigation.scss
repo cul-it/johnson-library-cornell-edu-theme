@@ -78,9 +78,15 @@
 .nav > li > a {
 	padding: 5px 15px;
 }
+
+// MOBILE MAIN NAVIGATION
+// -------------------------
 .nav-mobile {
 	.navbar-nav {
 		float: none;
+	}
+	.nav > li > a {
+		background: $light-gray;
 	}
 }
 
