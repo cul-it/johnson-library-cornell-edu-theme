@@ -110,7 +110,7 @@
   <div class="container">
     
     <div class="row">
-      <div class="sidebar sidebar-collapse">
+      <div class="sidebar sidebar-collapse collapse">
         <?php print render($page['sidebar']); ?>
       </div>
       <div class="main-text">
