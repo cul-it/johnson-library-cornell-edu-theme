@@ -121,7 +121,7 @@
         <div class="sidebar sidebar-collapse collapse">
           <?php print render($page['sidebar']); ?>
         </div>
-        <div class="main-text">
+        <div class="main-text-2col">
           <?php print $messages; ?>
           <?php print render($tabs); ?>
           <?php if ($action_links): ?>
@@ -134,12 +134,14 @@
     <!-- otherwise render a one-column layout -->
     <?php else :?>
 
-      <?php print $messages; ?>
-      <?php print render($tabs); ?>
-      <?php if ($action_links): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-      <?php print render($page['content']); ?>
+      <div class="main-text">
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
+        <?php if ($action_links): ?>
+          <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
+        <?php print render($page['content']); ?>
+      </div>
 
     <?php endif; ?>
 
