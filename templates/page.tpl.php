@@ -108,20 +108,43 @@
 
 <div class="main-content">
   <div class="container">
-    
-    <div class="row">
-      <div class="sidebar sidebar-collapse collapse">
-        <?php print render($page['sidebar']); ?>
+
+    <?php
+    // Render the sidebars to see if there's anything in them.
+    $sidebar  = render($page['sidebar']);
+      ?>
+
+    <!--if there is a sidebar, then create two columned layout-->
+   
+    <?php if ($sidebar): ?>
+      <div class="row">
+        <div class="sidebar sidebar-collapse collapse">
+          <?php print render($page['sidebar']); ?>
+        </div>
+        <div class="main-text">
+          <?php print $messages; ?>
+          <?php print render($tabs); ?>
+          <?php if ($action_links): ?>
+            <ul class="action-links"><?php print render($action_links); ?></ul>
+          <?php endif; ?>
+          <?php print render($page['content']); ?>
+        </div>
       </div>
-      <div class="main-text">
-        <?php print $messages; ?>
-        <?php print render($tabs); ?>
-        <?php if ($action_links): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
-        <?php endif; ?>
-        <?php print render($page['content']); ?>
-      </div>
-    </div>
+    <?php endif; ?>
+
+
+    <!-- otherwise render a one-column layout -->
+    <?php else :?>
+
+      <?php print $messages; ?>
+      <?php print render($tabs); ?>
+      <?php if ($action_links): ?>
+        <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
+      <?php print render($page['content']); ?>
+
+    <?php endif; ?>
+
   </div>
 </div>
 
