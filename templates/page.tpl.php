@@ -134,7 +134,7 @@
 
 
     <!-- otherwise render a one-column layout -->
-    <?php else :?>
+    <?php else ;?>
 
       <?php print $messages; ?>
       <?php print render($tabs); ?>
