@@ -130,11 +130,9 @@
           <?php print render($page['content']); ?>
         </div>
       </div>
-    <?php endif; ?>
-
 
     <!-- otherwise render a one-column layout -->
-    <?php else ;?>
+    <?php else :?>
 
       <?php print $messages; ?>
       <?php print render($tabs); ?>
