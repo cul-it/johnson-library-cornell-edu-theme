@@ -88,7 +88,9 @@
       </div>
       <!--Help-->
       <div role="tabpanel" class="tab-pane" id="help">
-        <?php print render($page['help-tab']); ?>
+        <div class="gutter">
+          <?php print render($page['help-tab']); ?>
+        </div>
       </div>
     </div>
   </div>
