@@ -76,7 +76,7 @@
 
     <!-- Tab panes -->
     <div class="tab-content">
-      <div role="tabpanel" class="tab-pane fade active" id="databases">
+      <div role="tabpanel" class="tab-pane fade in active" id="databases">
         <?php print render($page['databases-tab']); ?>
       </div>
       <div role="tabpanel" class="tab-pane fade" id="books">
