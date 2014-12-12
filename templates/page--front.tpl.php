@@ -76,18 +76,18 @@
 
     <!-- Tab panes -->
     <div class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="databases">
+      <div role="tabpanel" class="tab-pane fade active" id="databases">
         <?php print render($page['databases-tab']); ?>
       </div>
-      <div role="tabpanel" class="tab-pane" id="books">
+      <div role="tabpanel" class="tab-pane fade" id="books">
         <?php print render($page['books-tab']); ?>
       </div>
       <!--Guides and FAQ-->
-      <div role="tabpanel" class="tab-pane" id="guides">
+      <div role="tabpanel" class="tab-pane fade" id="guides">
         <?php print render($page['guides-tab']); ?>
       </div>
       <!--Help-->
-      <div role="tabpanel" class="tab-pane" id="help">
+      <div role="tabpanel" class="tab-pane fade" id="help">
         <div class="gutter">
           <?php print render($page['help-tab']); ?>
         </div>
