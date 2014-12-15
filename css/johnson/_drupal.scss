@@ -4,3 +4,10 @@
 body.admin-menu { padding-top: 0 !important; }
 
 #admin-menu li { font-size: 12px; }
+
+// # of reads
+.statistics_counter {
+	font-size: 14px;
+	padding: 4px 8px;
+	background: $light-gray;
+}
