@@ -4,6 +4,14 @@
 	font-size: 18px;
 	margin: 0 0 .25em 0;
 }
+.topic-list {
+	ul {
+		li {
+			float: left;
+			padding-right: .5em;
+		}
+	}
+}
 .label-topic {
 	background: $light-gray;
 	font-weight: normal;
