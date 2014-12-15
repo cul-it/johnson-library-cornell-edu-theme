@@ -7193,6 +7193,8 @@ footer {
 .sidebar .active a, .sidebar .active-trail a {
   color: black;
   font-weight: 700; }
+.sidebar li {
+  font-size: 16px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
