@@ -7461,4 +7461,9 @@ body.admin-menu {
   font-size: 18px;
   margin: 0 0 .25em 0; }
 
+.label-topic {
+  background: #ececed;
+  font-weight: normal;
+  font-size: 12px; }
+
 /*# sourceMappingURL=style.css.map */
