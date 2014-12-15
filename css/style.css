@@ -7379,11 +7379,6 @@ footer {
         font-size: 75%;
         margin-left: .5em;
         color: #b41b1d; }
-    .resource-content .tab-content ul a:after,
-    .resource-content .panel-body ul a:after,
-    .panel .tab-content ul a:after,
-    .panel .panel-body ul a:after {
-      content: "\f054"; }
   .resource-content .tab-content .form-control,
   .resource-content .panel-body .form-control,
   .panel .tab-content .form-control,
