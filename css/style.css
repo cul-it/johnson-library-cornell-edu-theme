@@ -7387,7 +7387,8 @@ footer {
   .resource-content .panel-body .form-control,
   .panel .tab-content .form-control,
   .panel .panel-body .form-control {
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    width: 100%; }
 
 .front .tab-content {
   margin-bottom: 1.5em; }
