@@ -7451,6 +7451,8 @@ body.admin-menu {
       cursor: not-allowed;
       background-color: #eeeeee;
       opacity: 1; }
+  .webform-client-form .radio label {
+    padding-left: 0; }
 
 .webform-component {
   margin: 0 0 1em; }

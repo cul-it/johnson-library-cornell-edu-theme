@@ -60,6 +60,11 @@ body.admin-menu { padding-top: 0 !important; }
 
 	  // [converter] extracted textarea& to textarea.form-control
 	}
+	.radio {
+		label {
+			padding-left: 0;
+		}
+	}
 }
 .webform-component {
 	margin: 0 0 1em;
