@@ -93,6 +93,10 @@
 					color: $johnson-red;
 				}
 			}
+			// add Font Awesome chevron-right to tab li links
+			a:before {
+				content: "\f054";
+			}
 		}
 		.form-control {
 			margin-bottom: 2em;
@@ -115,3 +119,6 @@
 		font-size: 14px !important;
 	}
 }
+
+
+$fa-var-chevron-right: "\f054";
