@@ -7190,6 +7190,9 @@ footer {
 .sidebar .nav > li > a:hover {
   background: inherit;
   text-decoration: underline; }
+.sidebar .active a, .sidebar .active-trail a {
+  color: black;
+  font-weight: 700; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

@@ -113,6 +113,12 @@
 		background: inherit;
 		text-decoration: underline;
 	}
+	.active, .active-trail {
+		a {
+			color: black;
+			font-weight: 700;
+		}
+	}
 }
 
 // MEDIA QUERIES
