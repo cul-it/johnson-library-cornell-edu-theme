@@ -5,21 +5,22 @@
 	background: $tan;
 	display: inline-block;
 	margin-top: -1px;
-	h1 {
-		font-size: 14px;
-		text-transform: uppercase;
-		margin: 0 .75em 0 0;
-		font-weight: 700;
-		float: left;
-		line-height: 1.4em;
-		i {
-			color: $cornell-primary;
-		}
-	}
 	.today-hours {
 		float: left;
 		padding: 5px 0 5px 5px;
 		margin: 5px;
+		span {
+			font-size: 14px;
+			text-transform: uppercase;
+			margin: 0 .75em 0 0;
+			font-weight: 700;
+			// float: left;
+			line-height: 1.4em;
+			i {
+				color: $cornell-primary;
+				margin-right: .25em;
+			}
+		}
 	}
 	.all-hours-link {
 		padding-left: 1em;

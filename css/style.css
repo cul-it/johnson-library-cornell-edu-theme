@@ -7225,19 +7225,19 @@ footer {
   background: #cbc3b7;
   display: inline-block;
   margin-top: -1px; }
-  .hours h1 {
-    font-size: 14px;
-    text-transform: uppercase;
-    margin: 0 .75em 0 0;
-    font-weight: 700;
-    float: left;
-    line-height: 1.4em; }
-    .hours h1 i {
-      color: #b31b1b; }
   .hours .today-hours {
     float: left;
     padding: 5px 0 5px 5px;
     margin: 5px; }
+    .hours .today-hours span {
+      font-size: 14px;
+      text-transform: uppercase;
+      margin: 0 .75em 0 0;
+      font-weight: 700;
+      line-height: 1.4em; }
+      .hours .today-hours span i {
+        color: #b31b1b;
+        margin-right: .25em; }
   .hours .all-hours-link {
     padding-left: 1em;
     border-left: 1px solid #efede9;
