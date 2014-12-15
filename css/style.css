@@ -7418,7 +7418,7 @@ body.admin-menu {
     font-size: 18px; }
   .webform-client-form .description {
     color: #686868; }
-  .webform-client-form input .email {
+  .webform-client-form .email {
     display: block;
     width: 100%;
     height: 34px;
@@ -7435,19 +7435,19 @@ body.admin-menu {
     -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
     -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
-    .webform-client-form input .email:focus {
+    .webform-client-form .email:focus {
       border-color: #66afe9;
       outline: 0;
       -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
       box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
-    .webform-client-form input .email::-moz-placeholder {
+    .webform-client-form .email::-moz-placeholder {
       color: #777777;
       opacity: 1; }
-    .webform-client-form input .email:-ms-input-placeholder {
+    .webform-client-form .email:-ms-input-placeholder {
       color: #777777; }
-    .webform-client-form input .email::-webkit-input-placeholder {
+    .webform-client-form .email::-webkit-input-placeholder {
       color: #777777; }
-    .webform-client-form input .email[disabled], .webform-client-form input .email[readonly], fieldset[disabled] .webform-client-form input .email {
+    .webform-client-form .email[disabled], .webform-client-form .email[readonly], fieldset[disabled] .webform-client-form .email {
       cursor: not-allowed;
       background-color: #eeeeee;
       opacity: 1; }

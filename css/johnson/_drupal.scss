@@ -23,8 +23,8 @@ body.admin-menu { padding-top: 0 !important; }
 	.description {
 		color: $charcoal-gray;
 	}
-	// force bootstrap styling for email field since it doesn't have bootstrap .form-control class on it
-	input .email {
+	// force bootstrap styling for email field since it doesn't have bootstrap .form-control class on it:
+	.email {
 	  display: block;
 	  width: 100%;
 	  height: $input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
