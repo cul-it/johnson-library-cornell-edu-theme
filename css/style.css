@@ -7409,7 +7409,8 @@ body.admin-menu {
 .statistics_counter {
   font-size: 14px;
   padding: 4px 8px;
-  background: #ececed; }
+  background: #ececed;
+  margin-top: 1em; }
 
 .topic {
   font-size: 18px;
