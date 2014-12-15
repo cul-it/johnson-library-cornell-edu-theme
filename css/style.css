@@ -6919,9 +6919,13 @@ p, li {
   border-radius: 0;
   text-decoration: none; }
 
-.btn-jgsm {
+.btn-jgsm,
+.btn-jgsm:active {
   background: #b41b1d;
   color: white; }
+  .btn-jgsm i,
+  .btn-jgsm:active i {
+    margin-left: .25em; }
 
 .btn-jgsm:hover {
   background: black;
