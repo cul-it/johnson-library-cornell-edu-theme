@@ -7235,9 +7235,9 @@ footer {
       margin: 0 .75em 0 0;
       font-weight: 700;
       line-height: 1.4em; }
-      .hours .today-hours span i {
-        color: #b31b1b;
-        margin-right: .25em; }
+    .hours .today-hours i {
+      color: #b31b1b;
+      margin-right: .25em; }
   .hours .all-hours-link {
     padding-left: 1em;
     border-left: 1px solid #efede9;

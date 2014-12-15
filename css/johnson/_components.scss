@@ -16,11 +16,11 @@
 			font-weight: 700;
 			// float: left;
 			line-height: 1.4em;
-			i {
+		}
+		i {
 				color: $cornell-primary;
 				margin-right: .25em;
 			}
-		}
 	}
 	.all-hours-link {
 		padding-left: 1em;
@@ -37,15 +37,6 @@
 			margin-left: .5em;
 		}
 	}
-	// ul {
-	// 	list-style: none;
-	// 	margin: 0;
-	// 	padding: 0;
-	// }
-	// li {
-	// 	font-size: 14px;
-	// 	margin: 0 0 .25em;
-	// }
 }
 
 // FEATURED CONTENT
