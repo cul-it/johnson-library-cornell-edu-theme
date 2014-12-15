@@ -17,3 +17,8 @@
 	font-weight: normal;
 	font-size: 12px;
 }
+.label-topic:hover,
+.label-topic:active {
+	background: $cornell-primary;
+	color: white;
+}

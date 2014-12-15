@@ -7470,4 +7470,9 @@ body.admin-menu {
   font-weight: normal;
   font-size: 12px; }
 
+.label-topic:hover,
+.label-topic:active {
+  background: #b31b1b;
+  color: white; }
+
 /*# sourceMappingURL=style.css.map */
