@@ -7407,10 +7407,11 @@ body.admin-menu {
   font-size: 12px; }
 
 .statistics_counter {
-  font-size: 14px;
-  padding: 4px 8px;
-  background: #ececed;
-  margin-top: 1em; }
+  font-size: 16px;
+  padding: 4px 8px !important;
+  background: #999;
+  margin-top: 1em;
+  color: white; }
 
 .topic {
   font-size: 18px;
