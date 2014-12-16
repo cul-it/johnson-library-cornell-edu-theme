@@ -61,7 +61,7 @@
 	.tab-content,
 	.panel-body {
 		.gutter {
-			padding: 20px;
+			padding: 10px 0;
 		}
 		h2 {
 			font-size: 16px;
@@ -121,8 +121,42 @@
 .panel-heading {
 	.fa-chevron-down {
 		margin-left: .5em;
+		font-size: 80%;
 	}
 }
 .panel-title {
 	font-size: 18px;
 }
+
+// MEDIA QUERIES
+// -------------------------
+
+	// /* Extra small devices (phones, up to 480px) */
+	// /* No media query since this is the default in Bootstrap */
+
+	// /* Small devices (tablets, 768px and up) */
+	// @media (min-width: @screen-sm) { ... }
+
+	// /* Medium devices (desktops, 992px and up) */
+	// @media (min-width: @screen-md) { ... }
+
+	// /* Large devices (large desktops, 1200px and up) */
+	// @media (min-width: @screen-lg) { ... }
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.panel {
+		.panel-body {
+			.gutter {
+				padding: 20px;
+			}
+		}
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md) {
+
+}
+

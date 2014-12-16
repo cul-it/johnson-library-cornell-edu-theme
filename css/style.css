@@ -7355,7 +7355,7 @@ footer {
   .resource-content .panel-body .gutter,
   .panel .tab-content .gutter,
   .panel .panel-body .gutter {
-    padding: 20px; }
+    padding: 10px 0; }
   .resource-content .tab-content h2,
   .resource-content .panel-body h2,
   .panel .tab-content h2,
@@ -7419,11 +7419,17 @@ footer {
   font-size: 14px !important; }
 
 .panel-heading .fa-chevron-down {
-  margin-left: .5em; }
+  margin-left: .5em;
+  font-size: 80%; }
 
 .panel-title {
   font-size: 18px; }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .panel .panel-body .gutter {
+    padding: 20px; } }
+/* Medium devices (desktops, 992px and up) */
 body.admin-menu {
   padding-top: 0 !important; }
 
