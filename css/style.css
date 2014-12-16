@@ -7173,7 +7173,11 @@ footer {
 .nav-mobile .navbar-nav {
   float: none; }
 .nav-mobile .nav > li > a {
-  background: #ececed; }
+  background: #ececed;
+  border-bottom: 1px solid #959696;
+  padding: 8px 30px;
+  text-transform: uppercase;
+  color: black; }
 
 .sidebar .block-title {
   margin-bottom: 0; }
