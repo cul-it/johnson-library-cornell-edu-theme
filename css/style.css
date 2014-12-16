@@ -7233,7 +7233,8 @@ footer {
   .navbar-brand {
     font-size: 48px; } }
 .hours {
-  background: #cbc3b7;
+  background: white;
+  border: 1px solid #999;
   display: inline-block;
   margin-top: -1px; }
   .hours .today-hours {
@@ -7296,7 +7297,9 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hours {
-    float: right; } }
+    float: right;
+    background: #cbc3b7;
+    border: 1px solid #cbc3b7; } }
 /* Medium devices (desktops, 992px and up) */
 .resource-tabs .nav-tabs {
   border-bottom: 0;

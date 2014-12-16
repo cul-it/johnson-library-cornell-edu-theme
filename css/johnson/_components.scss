@@ -2,7 +2,8 @@
 // -------------------------
 
 .hours {
-	background: $tan;
+	background: white;
+	border: 1px solid $medium-gray;
 	display: inline-block;
 	margin-top: -1px;
 	.today-hours {
@@ -92,6 +93,8 @@
 @media (min-width: $screen-sm) {
 	.hours {
 		float: right;
+		background: $tan;
+		border: 1px solid $tan;
 	}
 }
 
