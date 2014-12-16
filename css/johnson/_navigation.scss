@@ -72,13 +72,15 @@
 .nav-mobile {
 	.navbar-nav {
 		float: none;
+		margin: 0;
 	}
 	.nav > li > a {
-		background: $light-gray;
+		background: #d4d4d4;
 		border-bottom: 1px solid #959696;
-		padding: 8px 30px;
+		padding: 8px 15px;
 		text-transform: uppercase;
 		color: black;
+		font-size: 16px
 	}
 }
 

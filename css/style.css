@@ -7171,13 +7171,15 @@ footer {
   padding: 5px 15px; }
 
 .nav-mobile .navbar-nav {
-  float: none; }
+  float: none;
+  margin: 0; }
 .nav-mobile .nav > li > a {
-  background: #ececed;
+  background: #d4d4d4;
   border-bottom: 1px solid #959696;
-  padding: 8px 30px;
+  padding: 8px 15px;
   text-transform: uppercase;
-  color: black; }
+  color: black;
+  font-size: 16px; }
 
 .sidebar .block-title {
   margin-bottom: 0; }
