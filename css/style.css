@@ -7437,6 +7437,12 @@ footer {
 .panel-title {
   font-size: 18px; }
 
+.popular-topics li {
+  float: left;
+  margin: 0 5px 10px 0 !important; }
+.popular-topics a {
+  font-size: 16px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .resource-content .tab-content .gutter,

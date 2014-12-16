@@ -152,6 +152,17 @@
 	font-size: 18px;
 }
 
+// Popular topics labels
+.popular-topics {
+	li {
+		float: left;
+		margin: 0 5px 10px 0 !important;
+	}
+	a {
+		font-size: 16px;
+	}
+}
+
 // MEDIA QUERIES
 // -------------------------
 
