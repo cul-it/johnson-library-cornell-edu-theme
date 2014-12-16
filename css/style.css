@@ -7253,8 +7253,6 @@ footer {
       margin-right: .5em; }
   .hours .all-hours-link {
     padding-left: 1em;
-    border-left: 1px solid #efede9;
-    float: left;
     padding: 5px 5px 5px 10px;
     margin: 5px; }
   .hours a {
@@ -7300,7 +7298,10 @@ footer {
   .hours {
     float: right;
     background: #cbc3b7;
-    border: 1px solid #cbc3b7; } }
+    border: 1px solid #cbc3b7; }
+    .hours .all-hours-link {
+      border-left: 1px solid #efede9;
+      float: left; } }
 /* Medium devices (desktops, 992px and up) */
 .resource-tabs .nav-tabs {
   border-bottom: 0;
