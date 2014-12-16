@@ -154,6 +154,7 @@
 
 // Popular topics labels
 .popular-topics {
+	overflow: hidden;
 	li {
 		float: left;
 		margin: 0 5px 10px 0 !important;
@@ -161,6 +162,11 @@
 	a {
 		font-size: 16px;
 	}
+}
+
+// See all buttons
+.see-all {
+	margin: 2em 0 0 0;
 }
 
 // MEDIA QUERIES

@@ -7436,11 +7436,16 @@ footer {
 .panel-title {
   font-size: 18px; }
 
-.popular-topics li {
-  float: left;
-  margin: 0 5px 10px 0 !important; }
-.popular-topics a {
-  font-size: 16px; }
+.popular-topics {
+  overflow: hidden; }
+  .popular-topics li {
+    float: left;
+    margin: 0 5px 10px 0 !important; }
+  .popular-topics a {
+    font-size: 16px; }
+
+.see-all {
+  margin: 2em 0 0 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
