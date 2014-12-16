@@ -146,7 +146,9 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
+	.resource-content,
 	.panel {
+		.tab-content,
 		.panel-body {
 			.gutter {
 				padding: 20px;

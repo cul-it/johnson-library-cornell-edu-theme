@@ -7427,6 +7427,9 @@ footer {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .resource-content .tab-content .gutter,
+  .resource-content .panel-body .gutter,
+  .panel .tab-content .gutter,
   .panel .panel-body .gutter {
     padding: 20px; } }
 /* Medium devices (desktops, 992px and up) */
