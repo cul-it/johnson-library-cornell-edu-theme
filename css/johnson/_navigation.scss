@@ -134,38 +134,12 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
-	// .navbar-brand {
-	// 	padding-left: 15px;
-	// }
-	// .navbar {
-	// 	.nav {
-	// 		li {
-	// 			margin-left: 5px;
-	// 		}
-	// 	}
-	// }
+
 	.sidebar-collapse.collapse {
 		display: block;
 	}
 	.navigation-collapse {
 		padding-right: 0;
-	}
-	// footer {
-	// 	.nav {
-	// 		li {
-	// 			float: left;
-	// 		}
-	// 	}
-	// }
-
-	// .navbar-collapse.collapse {
-	// 	display: none !important;
-	// }
-	.navbar-brand,
-	.navbar-brand:hover {
-		color: white;
-		text-shadow: 2px 2px 0px rgba(63, 63, 63, 1);
-		font-size: 36px !important;
 	}
 	.college-brand {
 		color: white;
@@ -176,21 +150,19 @@
 		color: white;
 		text-decoration: none;
 	}
-	.navbar-brand {
+	.navbar-brand,
+	.navbar-brand:hover {
 		padding: 15px;
 		font-size: 42px;
 		margin-bottom: .75em;
+		text-shadow: 2px 2px 0px rgba(63, 63, 63, 1);
+		color: white;
 	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-	// .navbar {
-	// 	.nav {
-	// 		float: right;
-	// 		margin-top: 3em;
-	// 	}
-	// }
+
 }
 // /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg) {
