@@ -7240,7 +7240,7 @@ footer {
   margin-top: -1px; }
   .hours .today-hours {
     float: left;
-    padding: 5px 0 5px 5px;
+    padding: 5px;
     margin: 5px; }
     .hours .today-hours span {
       font-size: 14px;
@@ -7299,6 +7299,8 @@ footer {
     float: right;
     background: #cbc3b7;
     border: 1px solid #cbc3b7; }
+    .hours .today-hours {
+      padding: 5px 0 5px 5px; }
     .hours .all-hours-link {
       border-left: 1px solid #efede9;
       float: left; } }
@@ -7415,6 +7417,12 @@ footer {
   margin-right: .25em; }
 .books-search .btn-jgsm {
   font-size: 14px !important; }
+
+.panel-heading .fa-chevron-down {
+  margin-left: .5em; }
+
+.panel-title {
+  font-size: 18px; }
 
 body.admin-menu {
   padding-top: 0 !important; }
