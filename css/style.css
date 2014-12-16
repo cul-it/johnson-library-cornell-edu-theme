@@ -7214,8 +7214,7 @@ footer {
   .navbar-brand:hover {
     color: white;
     text-shadow: 2px 2px 0px #3f3f3f;
-    font-size: 36px;
-    margin-left: 0 !important; }
+    font-size: 36px; }
 
   .college-brand {
     color: white;
@@ -7224,7 +7223,10 @@ footer {
 
   .college-brand:hover {
     color: white;
-    text-decoration: none; } }
+    text-decoration: none; }
+
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 1200px) {
   .navbar-brand,

@@ -144,7 +144,6 @@
 		color: white;
 		text-shadow: 2px 2px 0px rgba(63, 63, 63, 1);
 		font-size: 36px;
-		margin-left: 0 !important;
 	}
 	.college-brand {
 		color: white;
@@ -154,6 +153,9 @@
 	.college-brand:hover {
 		color: white;
 		text-decoration: none;
+	}
+	.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+		margin-left: 0;
 	}
 }
 
