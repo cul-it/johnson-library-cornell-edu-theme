@@ -7215,7 +7215,7 @@ footer {
     color: white;
     text-shadow: 2px 2px 0px #3f3f3f;
     font-size: 36px;
-    margin-left: 0; }
+    margin-left: 0 !important; }
 
   .college-brand {
     color: white;
