@@ -7418,9 +7418,17 @@ footer {
 .books-search .btn-jgsm {
   font-size: 14px !important; }
 
-#databases-collapse .btn-jgsm,
-#databases .btn-jgsm {
+#databases-collapse .btn-search,
+#databases .btn-search {
   font-size: 14px !important; }
+
+#databases .col-sm-4 h2,
+#databases-collapse .col-sm-4 h2 {
+  margin-top: 2em; }
+
+#databases .col-sm-4 h2:first-child,
+#databases-collapse .col-sm-4 h2:first-child {
+  margin-top: 0; }
 
 .panel-heading .fa-chevron-down {
   margin-left: .5em;

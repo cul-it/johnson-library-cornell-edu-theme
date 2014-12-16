@@ -120,8 +120,24 @@
 // Databases
 #databases-collapse,
 #databases {
-	.btn-jgsm {
+	.btn-search {
 		font-size: 14px !important;
+	}
+}
+#databases,
+#databases-collapse {
+	.col-sm-4 {
+		h2 {
+			margin-top: 2em;
+		}
+	}
+}
+#databases,
+#databases-collapse {
+	.col-sm-4 {
+		h2:first-child {
+			margin-top: 0;
+		}
 	}
 }
 
