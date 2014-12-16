@@ -40,7 +40,7 @@
     <div class="container">
       <div class="row">
         <div class="brand">
-          <a href="http://johnson.cornell.edu" class="college-brand">Johnson School</a>
+          <a href="http://johnson.cornell.edu" class="college-brand">Johnson</a>
           <a class="navbar-brand" href="/">Management Library</a>
         </div>
         <div class="navigation">

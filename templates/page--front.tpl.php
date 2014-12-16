@@ -1,5 +1,13 @@
 <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
 
+<div class="search-collapse collapse">
+  <div class="container">
+    <div class="header-search">
+      <?php print render($page['search']); ?>
+    </div>
+  </div>
+</div>
+
 <div class="cornell-brand">
   <div class="container">
     <div class="row">
@@ -21,27 +29,18 @@
   </div>
 </div>
 
-<div class="search-collapse collapse">
-  <div class="container">
-    <div class="header-search">
-      <?php print render($page['search']); ?>
-    </div>
-  </div>
-</div>
-
 <div class="navigation-collapse collapse nav-mobile">
   <div class="navbar-nav">
     <?php print render($page['mobile-nav']); ?>
   </div>
 </div><!--/.navigation-collapse-->
 
-
 <div class="image-wrapper">
   <div class="navbar" role="navigation">
     <div class="container">
       <div class="row">
         <div class="brand">
-          <a href="http://johnson.cornell.edu" class="college-brand">Johnson School</a>
+          <a href="http://johnson.cornell.edu" class="college-brand">Johnson</a>
           <a class="navbar-brand" href="/">Management Library</a>
         </div>
         <div class="navigation">
