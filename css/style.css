@@ -7531,6 +7531,6 @@ body.admin-menu {
   color: white; }
 
 .block-simplesamlphp-auth h2 {
-  margin-top: 2em; }
+  margin-top: 1em !important; }
 
 /*# sourceMappingURL=style.css.map */
