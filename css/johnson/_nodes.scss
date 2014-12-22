@@ -1,17 +1,17 @@
-// SimpleSAML login
+// TOPICS
 // -------------------------
 .topic {
 	font-size: 18px;
 	margin: 0 0 .25em 0;
 }
-.topic-list {
-	ul {
-		li {
-			float: left;
-			padding-right: .5em;
-		}
-	}
-}
+// .topic-list {
+// 	ul {
+// 		li {
+// 			float: left;
+// 			padding-right: .5em;
+// 		}
+// 	}
+// }
 .label-topic {
 	background: $light-gray;
 	font-weight: normal;
@@ -39,18 +39,11 @@
 	overflow: hidden;
 	h4 {
 		font-weight: normal;
-		margin: 0;
+		margin: 0 .5em .75em 0;
+		float: left; 
 	}
-	ul {
-		list-style: none;
-		padding: 0;
-		overflow: hidden;
+	.label-topic {
+		color: $dark-gray;
 	}
-	li {
-		float: left;
-		margin-right: .25em;
-		.label-topic {
-			color: $dark-gray;
-		}
-	}
+
 }

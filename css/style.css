@@ -7516,10 +7516,6 @@ body.admin-menu {
   font-size: 18px;
   margin: 0 0 .25em 0; }
 
-.topic-list ul li {
-  float: left;
-  padding-right: .5em; }
-
 .label-topic {
   background: #ececed;
   font-weight: normal;
@@ -7539,15 +7535,9 @@ body.admin-menu {
   overflow: hidden; }
   .content-list h4 {
     font-weight: normal;
-    margin: 0; }
-  .content-list ul {
-    list-style: none;
-    padding: 0;
-    overflow: hidden; }
-  .content-list li {
-    float: left;
-    margin-right: .25em; }
-    .content-list li .label-topic {
-      color: #333; }
+    margin: 0 .5em .75em 0;
+    float: left; }
+  .content-list .label-topic {
+    color: #333; }
 
 /*# sourceMappingURL=style.css.map */
