@@ -7298,6 +7298,13 @@ footer {
   .feature h4 {
     font-size: 22px; }
 
+.single-search .form-group {
+  width: 75%;
+  float: left;
+  margin-right: .25em; }
+.single-search .btn-jgsm {
+  font-size: 14px !important; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hours {
@@ -7415,13 +7422,6 @@ footer {
 
 .front .tab-content {
   margin-bottom: 1.5em; }
-
-.books-search .form-group {
-  width: 75%;
-  float: left;
-  margin-right: .25em; }
-.books-search .btn-jgsm {
-  font-size: 14px !important; }
 
 #databases-collapse .btn-search,
 #databases .btn-search {
