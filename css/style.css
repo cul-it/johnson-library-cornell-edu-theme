@@ -7302,6 +7302,9 @@ footer {
   width: 75%;
   float: left;
   margin-right: .25em; }
+.single-search .form-control {
+  width: 100%;
+  margin-bottom: 2em; }
 .single-search .btn-jgsm {
   font-size: 14px !important; }
 
