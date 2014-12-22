@@ -7280,7 +7280,8 @@ footer {
   .feature img {
     max-width: 100%;
     height: auto; }
-  .feature img.pull-left {
+  .feature img.pull-left,
+  .feature .pull-left {
     margin: 0 1em 1em 0; }
   .feature a {
     color: #333; }
@@ -7294,6 +7295,8 @@ footer {
     font-size: 16px;
     text-transform: uppercase;
     margin: 0 0 1em; }
+  .feature h4 {
+    font-size: 22px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
