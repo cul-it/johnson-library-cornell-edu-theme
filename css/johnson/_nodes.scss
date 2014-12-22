@@ -1,4 +1,4 @@
-// TOPICS
+// SimpleSAML login
 // -------------------------
 .topic {
 	font-size: 18px;
@@ -28,5 +28,29 @@
 .block-simplesamlphp-auth {
 	h2 {
 		margin-top: 1em !important;  
+	}
+}
+
+// LIST OF CONTENT WITH TAGS, like GUIDES
+// ----------------------------------------
+.content-list {
+	border-bottom: 1px solid $light-gray;
+	margin: 1em 0;
+	overflow: hidden;
+	h4 {
+		font-weight: normal;
+		margin: 0;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+		overflow: hidden;
+	}
+	li {
+		float: left;
+		margin-right: .25em;
+		.label-topic {
+			color: $dark-gray;
+		}
 	}
 }

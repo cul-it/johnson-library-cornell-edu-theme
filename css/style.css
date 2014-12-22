@@ -7533,4 +7533,21 @@ body.admin-menu {
 .block-simplesamlphp-auth h2 {
   margin-top: 1em !important; }
 
+.content-list {
+  border-bottom: 1px solid #ececed;
+  margin: 1em 0;
+  overflow: hidden; }
+  .content-list h4 {
+    font-weight: normal;
+    margin: 0; }
+  .content-list ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden; }
+  .content-list li {
+    float: left;
+    margin-right: .25em; }
+    .content-list li .label-topic {
+      color: #333; }
+
 /*# sourceMappingURL=style.css.map */
