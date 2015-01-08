@@ -9,7 +9,7 @@
 ?>
 
 
-<?php if (!empty ($content['field_address'])) : ?>
-  <?php print render($content['field_address']); ?>
+<?php if (!empty ($content['field_dbaseurl'])) : ?>
+  <a class="<?php print render($content['field_dbaseurl']); ?>" class="btn btn-jgsm"></a>
 <?php endif; ?>
 
