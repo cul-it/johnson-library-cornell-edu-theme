@@ -10,6 +10,6 @@
 
 
 <?php if (!empty ($content['field_dbaseurl'])) : ?>
-  <?php print render($content['field_dbaseurl']); ?>"
+  <a href="<?php print render($content['field_dbaseurl']); ?>" class="btn btn-jgsm"></a>
 <?php endif; ?>
 
