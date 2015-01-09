@@ -7589,7 +7589,8 @@ body.admin-menu {
   font-size: 18px; }
 .db-url a:hover {
   background: black;
-  color: white; }
+  color: white;
+  text-decoration: none; }
 
 .block-simplesamlphp-auth h2 {
   margin-top: 1em !important; }
