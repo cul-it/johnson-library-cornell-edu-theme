@@ -18,8 +18,8 @@
 	font-weight: normal;
 	font-size: 12px;
 }
-.topic-list a, // to target taxonomy term on  node template
-.topic-list a:hover,
+.topic-list a:hover, // to target taxonomy term on  node template
+.topic-list a:active,
 .label-topic:hover,
 .label-topic:active {
 	background: $cornell-primary;
