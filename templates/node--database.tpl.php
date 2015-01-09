@@ -10,11 +10,13 @@
 
 
 <?php if (!empty ($content['field_dbaseurl'])) : ?>
-  <?php print render($content['field_dbaseurl']); ?>
+	<div class="db-field db-url">
+  		<?php print render($content['field_dbaseurl']); ?>
+  	</div>
 <?php endif; ?>
 
 <?php if (!empty ($content['taxonomy_vocabulary_1'])) : ?>
-	<div class="topic-list">
+	<div class="db-field topic-list">
   		<?php print render($content['taxonomy_vocabulary_1']); ?>
  	</div>
 <?php endif; ?>
