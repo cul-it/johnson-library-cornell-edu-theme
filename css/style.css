@@ -7535,25 +7535,27 @@ body.admin-menu {
   background: #b31b1b;
   color: white; }
 
-.topic-list a {
-  color: #333;
-  display: inline;
-  padding: .2em .6em .3em;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: .25em;
-  font-size: 14px;
-  background: #ececed;
-  font-weight: normal; }
-.topic-list a:hover {
-  text-decoration: none;
-  background: #b31b1b;
-  color: white; }
-.topic-list .field-item {
-  display: inline-block;
-  margin: 0 5px 10px 0; }
+.topic-list {
+  margin-bottom: 1em; }
+  .topic-list a {
+    color: #333;
+    display: inline;
+    padding: .2em .6em .3em;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    font-size: 14px;
+    background: #ececed;
+    font-weight: normal; }
+  .topic-list a:hover {
+    text-decoration: none;
+    background: #b31b1b;
+    color: white; }
+  .topic-list .field-item {
+    display: inline-block;
+    margin: 0 5px 10px 0; }
 
 .block-simplesamlphp-auth h2 {
   margin-top: 1em !important; }
