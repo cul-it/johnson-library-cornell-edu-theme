@@ -26,6 +26,20 @@
 	color: white;
 }
 
+// add label styles to topic tag on node template
+.topic-list {
+	a {
+		color: $dark-gray;
+		display: inline;
+		padding: .2em .6em .3em;
+		line-height: 1;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: baseline;
+		border-radius: .25em;
+	}
+}
+
 // SimpleSAML login
 // -------------------------
 .block-simplesamlphp-auth {

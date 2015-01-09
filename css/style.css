@@ -7538,6 +7538,16 @@ body.admin-menu {
   background: #b31b1b;
   color: white; }
 
+.topic-list a {
+  color: #333;
+  display: inline;
+  padding: .2em .6em .3em;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em; }
+
 .block-simplesamlphp-auth h2 {
   margin-top: 1em !important; }
 
