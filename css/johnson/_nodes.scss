@@ -12,11 +12,14 @@
 // 		}
 // 	}
 // }
+.topic-list a, // to target taxonomy term on  node template
 .label-topic {
 	background: $light-gray;
 	font-weight: normal;
 	font-size: 12px;
 }
+.topic-list a, // to target taxonomy term on  node template
+.topic-list a:hover,
 .label-topic:hover,
 .label-topic:active {
 	background: $cornell-primary;

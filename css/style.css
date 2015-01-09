@@ -7525,11 +7525,14 @@ body.admin-menu {
   font-size: 18px;
   margin: 0 0 .25em 0; }
 
+.topic-list a,
 .label-topic {
   background: #ececed;
   font-weight: normal;
   font-size: 12px; }
 
+.topic-list a,
+.topic-list a:hover,
 .label-topic:hover,
 .label-topic:active {
   background: #b31b1b;
