@@ -43,6 +43,10 @@
 		background: $cornell-primary;
 		color: white;
 	}
+	.field-item {
+		display: inline;
+		margin-right: 5px;
+	}
 }
 
 // SimpleSAML login
