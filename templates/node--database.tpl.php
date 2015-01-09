@@ -11,7 +11,7 @@
 
 <?php if (!empty ($content['field_dbaseurl'])) : ?>
 	<div class="db-field db-url">
-  		<?php print render($content['field_dbaseurl']); ?>">
+  		<?php print render($content['field_dbaseurl']); ?>
   	</div>
 <?php endif; ?>
 
