@@ -36,3 +36,7 @@
 <?php if (!empty ($content['field_availability'])) : ?>
   <?php print render($content['field_availability']); ?>
 <?php endif; ?>
+
+<?php if (!empty ($content['field_content_block'])) : ?>
+  <?php print render($content['field_content_block']); ?>
+<?php endif; ?>
