@@ -7558,6 +7558,9 @@ body.admin-menu {
 .db-field {
   margin-bottom: 1em; }
 
+.db-availability .field-items {
+  font-size: 18px; }
+
 .block-simplesamlphp-auth h2 {
   margin-top: 1em !important; }
 
