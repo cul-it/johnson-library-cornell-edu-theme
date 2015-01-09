@@ -12,14 +12,11 @@
 // 		}
 // 	}
 // }
-.topic-list a, // to target taxonomy term on  node template
 .label-topic {
 	background: $light-gray;
 	font-weight: normal;
 	font-size: 12px;
 }
-.topic-list a:hover, // to target taxonomy term on  node template
-.topic-list a:active,
 .label-topic:hover,
 .label-topic:active {
 	background: $cornell-primary;
@@ -37,6 +34,14 @@
 		white-space: nowrap;
 		vertical-align: baseline;
 		border-radius: .25em;
+		font-size: 14px;
+		background: $light-gray;
+		font-weight: normal;
+	}
+	a:hover {
+		text-decoration: none;
+		background: $cornell-primary;
+		color: white;
 	}
 }
 

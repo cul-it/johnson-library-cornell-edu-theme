@@ -7525,14 +7525,11 @@ body.admin-menu {
   font-size: 18px;
   margin: 0 0 .25em 0; }
 
-.topic-list a,
 .label-topic {
   background: #ececed;
   font-weight: normal;
   font-size: 12px; }
 
-.topic-list a:hover,
-.topic-list a:active,
 .label-topic:hover,
 .label-topic:active {
   background: #b31b1b;
@@ -7546,7 +7543,14 @@ body.admin-menu {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: .25em; }
+  border-radius: .25em;
+  font-size: 14px;
+  background: #ececed;
+  font-weight: normal; }
+.topic-list a:hover {
+  text-decoration: none;
+  background: #b31b1b;
+  color: white; }
 
 .block-simplesamlphp-auth h2 {
   margin-top: 1em !important; }
