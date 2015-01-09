@@ -15,12 +15,6 @@
   	</div>
 <?php endif; ?>
 
-<?php if (!empty ($content['taxonomy_vocabulary_1'])) : ?>
-	<div class="db-field topic-list">
-  		<?php print render($content['taxonomy_vocabulary_1']); ?>
- 	</div>
-<?php endif; ?>
-
 <?php if (!empty ($content['field_use'])) : ?>
 	<div class="db-field db-use">
   		<?php print render($content['field_use']); ?>
@@ -49,4 +43,10 @@
 	<div class="db-field db-availability">
   		<?php print render($content['field_availability']); ?>
   	</div>
+<?php endif; ?>
+
+<?php if (!empty ($content['taxonomy_vocabulary_1'])) : ?>
+  <div class="db-field topic-list">
+      <?php print render($content['taxonomy_vocabulary_1']); ?>
+  </div>
 <?php endif; ?>
