@@ -14,7 +14,9 @@
 <?php endif; ?>
 
 <?php if (!empty ($content['taxonomy_vocabulary_1'])) : ?>
-  <?php print render($content['taxonomy_vocabulary_1']); ?>
+	<div class="topic-list">
+  		<?php print render($content['taxonomy_vocabulary_1']); ?>
+ 	</div>
 <?php endif; ?>
 
 <?php if (!empty ($content['field_use'])) : ?>
@@ -35,8 +37,4 @@
 
 <?php if (!empty ($content['field_availability'])) : ?>
   <?php print render($content['field_availability']); ?>
-<?php endif; ?>
-
-<?php if (!empty ($content['field_content_block'])) : ?>
-  <?php print render($content['field_content_block']); ?>
 <?php endif; ?>
