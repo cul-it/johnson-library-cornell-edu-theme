@@ -7531,8 +7531,8 @@ body.admin-menu {
   font-weight: normal;
   font-size: 12px; }
 
-.topic-list a,
 .topic-list a:hover,
+.topic-list a:active,
 .label-topic:hover,
 .label-topic:active {
   background: #b31b1b;
