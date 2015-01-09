@@ -7552,8 +7552,8 @@ body.admin-menu {
   background: #b31b1b;
   color: white; }
 .topic-list .field-item {
-  display: inline;
-  margin-right: 5px; }
+  display: inline-block;
+  margin: 0 5px 10px 0; }
 
 .block-simplesamlphp-auth h2 {
   margin-top: 1em !important; }
