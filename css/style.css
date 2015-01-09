@@ -7577,7 +7577,7 @@ body.admin-menu {
 .db-availability .field-items {
   font-size: 18px; }
 
-.db-connect a {
+.db-url a {
   background: #b41b1d;
   color: white;
   display: inline-block;
@@ -7585,7 +7585,7 @@ body.admin-menu {
   text-align: center;
   vertical-align: middle;
   padding: 6px 12px; }
-.db-connect a:hover {
+.db-url a:hover {
   background: black;
   color: white; }
 
