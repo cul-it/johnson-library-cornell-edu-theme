@@ -59,6 +59,23 @@
 		font-size: 18px;
 	}
 }
+// Give the Connect button the same styling as .btn-jgsm
+.db-connect {
+	a {
+		background: $johnson-red;
+		color: white;
+		display: inline-block;
+		font-weight: normal;
+		text-align: center;
+		vertical-align: middle;
+		padding: 6px 12px;
+	}
+	a:hover {
+		background: black;
+		color: white;
+	}
+}
+
 
 // SimpleSAML login
 // -------------------------
