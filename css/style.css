@@ -6880,7 +6880,7 @@ button.close {
     height: 72px; }
   .cu-logo img {
     display: none; }
-  .cu-logo #unit-signature-links {
+  .cu-logo .unit-signature-links {
     float: left; }
   .cu-logo a#cornell-link {
     left: 68px;
