@@ -7322,7 +7322,7 @@ footer {
   font-size: 14px !important; }
 
 .page-search .main-text .search-form {
-  width: 50%; }
+  width: 100%; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -7334,7 +7334,10 @@ footer {
       padding: 5px 0 5px 5px; }
     .hours .all-hours-link {
       border-left: 1px solid #efede9;
-      float: left; } }
+      float: left; }
+
+  .page-search .main-text .search-form {
+    width: 50%; } }
 /* Medium devices (desktops, 992px and up) */
 .resource-tabs .nav-tabs {
   border-bottom: 0;

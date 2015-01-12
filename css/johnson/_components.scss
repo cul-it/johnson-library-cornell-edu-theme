@@ -99,7 +99,7 @@
 .page-search {
 	.main-text {
 		.search-form {
-			width: 50%;
+			width: 100%;
 		}
 	}
 }
@@ -132,6 +132,13 @@
 		.all-hours-link {
 			border-left: 1px solid $pale-tan;
 			float: left;
+		}
+	}
+	.page-search {
+		.main-text {
+			.search-form {
+				width: 50%;
+			}
 		}
 	}
 }
