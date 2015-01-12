@@ -6906,12 +6906,15 @@ button.close {
   margin: 10px 0; }
   .header-search form {
     float: right;
-    width: 40%; }
+    width: 100%; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .search-box .btn {
-    margin-top: 1.5em; } }
+    margin-top: 1.5em; }
+
+  .header-search form {
+    width: 40%; } }
 /* Medium devices (desktops, 992px and up) */
 body {
   font-family: "pf_dintext_proregular", arial, san-serif;

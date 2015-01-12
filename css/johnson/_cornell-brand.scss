@@ -60,7 +60,7 @@
 	margin: 10px 0;
 	form {
 		float: right;
-		width: 40%;
+		width: 100%;
 	}
 }
 // .search-links {
@@ -102,6 +102,11 @@
 	.search-box {
 		.btn {
 			margin-top: 1.5em;
+		}
+	}
+	.header-search {
+		form {
+			width: 40%;
 		}
 	}
 }
