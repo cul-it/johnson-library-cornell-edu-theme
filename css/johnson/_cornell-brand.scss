@@ -24,10 +24,19 @@
 	}
 	a#insignia-link {
 		// float: left;
-		width: 169px;
-		height: 45px;
+		width: 72px;
+		height: 72px;
 	}
 	img { display: none; }
+	#unit-signature-links { float: left; }
+	a#cornell-link {
+		left: 68px;
+		height: 35px;
+	}
+	a#unit-link {
+		top: 38px;
+		height: 37px;
+	}
 }
 .search-box {
 	.btn {

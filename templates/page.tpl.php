@@ -15,6 +15,10 @@
         <div class="cu-logo">
           <img src="/sites/all/themes/johnsonlibrary/img/layout/johnson-cornell.gif" alt="Cornell University Library">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
+          <div class="unit-signature-links">
+            <a id="unit-link" href="http://johnson.cornell.edu/">Johnson</a>
+            <a id="cornell-link" href="http://www.cornell.edu/">Cornell University</a>
+          </div>
         </div>
       </div>
       <div class="search-box">

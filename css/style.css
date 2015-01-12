@@ -6876,10 +6876,18 @@ button.close {
     text-indent: -1000em;
     text-decoration: none; }
   .cu-logo a#insignia-link {
-    width: 169px;
-    height: 45px; }
+    width: 72px;
+    height: 72px; }
   .cu-logo img {
     display: none; }
+  .cu-logo #unit-signature-links {
+    float: left; }
+  .cu-logo a#cornell-link {
+    left: 68px;
+    height: 35px; }
+  .cu-logo a#unit-link {
+    top: 38px;
+    height: 37px; }
 
 .search-box .btn {
   float: right;
