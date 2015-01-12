@@ -108,7 +108,7 @@
 	}
 }
 
-// NAV PILLS
+// BOOTSTRAP OVERRIDES
 // -------------------------
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
 	background: $johnson-red;
@@ -116,7 +116,18 @@
 .nav-pills > li > a {
 	border-radius: 0;
 }
+.tab-pane {
+	margin: 1em 0;
+}
 
+// UI ACCORDION OVERRIDES
+// -------------------------
+.ui-accordion {
+	.ui-accordion-header {
+		border-radius: 0 !important;
+		background-image: none;
+	}
+}
 
 
 

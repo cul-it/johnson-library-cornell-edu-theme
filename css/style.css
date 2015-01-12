@@ -7348,6 +7348,13 @@ footer {
 .nav-pills > li > a {
   border-radius: 0; }
 
+.tab-pane {
+  margin: 1em 0; }
+
+.ui-accordion .ui-accordion-header {
+  border-radius: 0 !important;
+  background-image: none; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hours {
