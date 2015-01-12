@@ -13,7 +13,7 @@
     <div class="row">
       <div class="cornell-logo">
         <div class="cu-logo">
-          <img src="/sites/all/themes/johnsonlibrary/img/layout/Johnson_Cornell.simple.color.on.wht.gif" alt="Cornell University Library">
+          <img src="/sites/all/themes/johnsonlibrary/img/layout/johnson-cornell.gif" alt="Cornell University Library">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
         </div>
       </div>
