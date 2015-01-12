@@ -26,6 +26,7 @@
 		float: left;
 		width: 72px;
 		height: 72px;
+		display: none;
 	}
 	img { display: none; }
 	.unit-signature-links { 
@@ -101,7 +102,8 @@
 		background: url("../img/layout/johnson-cornell.gif") no-repeat 0 0;
 		width: 228px;
 		height: 73px;
-		.unit-signature-links {
+		.unit-signature-links,
+		a#insignia-link {
 			display: block;
 		}
 	}
