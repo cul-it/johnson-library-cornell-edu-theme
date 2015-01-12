@@ -6908,6 +6908,7 @@ button.close {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .cu-logo {
+    background: url("../img/layout/johnson-cornell-sm.gif") no-repeat 0 0;
     width: 228px;
     height: 73px; } }
 /* Medium devices (desktops, 992px and up) */
