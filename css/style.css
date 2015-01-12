@@ -7581,6 +7581,20 @@ body.admin-menu {
 .page-node-258 h2 {
   font-size: 24px; }
 
+ul.item-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  ul.item-list li {
+    font-size: 18px;
+    margin: 0 0 .5em; }
+  ul.item-list a {
+    color: #333333; }
+    ul.item-list a i {
+      font-size: 75%;
+      margin-left: .5em;
+      color: #b41b1d; }
+
 .topic-list a {
   color: #333333;
   display: inline;
