@@ -13,7 +13,7 @@
 }
 .cu-logo {
 	display: block;
-	background: url("../img/layout/johnson-cornell.gif") no-repeat 0 0;
+	background: url("../img/layout/johnson-cornell-sm.gif") no-repeat 0 0;
 	width: 143px;
 	height: 45px;
 	a {
@@ -95,7 +95,7 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.cu-logo {
-		background: url("../img/layout/johnson-cornell-sm.gif") no-repeat 0 0;
+		background: url("../img/layout/johnson-cornell.gif") no-repeat 0 0;
 		width: 228px;
 		height: 73px;
 	}
