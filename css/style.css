@@ -7357,6 +7357,11 @@ footer {
     border-radius: 0 !important;
     background-image: none; }
 
+.ui-widget-content a {
+  color: #b41b1d;
+  display: inline-block;
+  margin: 0 0 .25em; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hours {
