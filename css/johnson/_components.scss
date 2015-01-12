@@ -123,10 +123,10 @@
 // UI ACCORDION OVERRIDES
 // -------------------------
 .ui-accordion {
+	font-family: $font-family-sans-serif;
 	.ui-accordion-header {
 		border-radius: 0 !important;
 		background-image: none;
-		font-family: $font-family-sans-serif;
 	}
 }
 

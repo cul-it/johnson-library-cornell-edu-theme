@@ -7351,10 +7351,11 @@ footer {
 .tab-pane {
   margin: 1em 0; }
 
-.ui-accordion .ui-accordion-header {
-  border-radius: 0 !important;
-  background-image: none;
+.ui-accordion {
   font-family: "pf_dintext_proregular", arial, san-serif; }
+  .ui-accordion .ui-accordion-header {
+    border-radius: 0 !important;
+    background-image: none; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
