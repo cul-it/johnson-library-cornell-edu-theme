@@ -102,7 +102,12 @@
 			width: 100%;
 		}
 	}
+	// hide author and last updated date from results
+	.search-info {
+		display: none;
+	}
 }
+
 
 // MEDIA QUERIES
 // -------------------------
