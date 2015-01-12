@@ -6885,10 +6885,11 @@ button.close {
     float: left; }
   .cu-logo a#cornell-link {
     left: 68px;
-    height: 35px; }
+    height: 20px; }
   .cu-logo a#unit-link {
     top: 38px;
-    height: 37px; }
+    height: 45px;
+    width: 155px; }
 
 .search-box .btn {
   float: right;
