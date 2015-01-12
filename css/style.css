@@ -6876,6 +6876,7 @@ button.close {
     text-indent: -1000em;
     text-decoration: none; }
   .cu-logo a#insignia-link {
+    float: left;
     width: 72px;
     height: 72px; }
   .cu-logo img {
