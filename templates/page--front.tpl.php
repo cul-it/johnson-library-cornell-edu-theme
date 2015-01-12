@@ -1,12 +1,6 @@
 <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
 
-<div class="search-collapse collapse" id="search-collapse">
-  <div class="container">
-    <div class="header-search">
-      <?php print render($page['search']); ?>
-    </div>
-  </div>
-</div>
+
 
 <div class="cornell-brand">
   <div class="container">
@@ -25,13 +19,21 @@
         </div>
       </div>
       <div class="search-box">
-        <button class="btn btn-default" data-toggle="collapse" data-target="#search-collapse">
+        <button class="btn btn-default" data-toggle="collapse" data-target=".search-collapse">
           <i class="fa fa-search"></i>
         </button>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navigation-collapse">
           <i class="fa fa-bars"></i>
         </button>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="search-collapse collapse">
+  <div class="container">
+    <div class="header-search">
+      <?php print render($page['search']); ?>
     </div>
   </div>
 </div>
