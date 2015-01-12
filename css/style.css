@@ -6902,8 +6902,11 @@ button.close {
 .search-box .btn:hover {
   background: white; }
 
-.header-search form {
-  float: right; }
+.header-search {
+  margin: 10px 0; }
+  .header-search form {
+    float: right;
+    width: 40%; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
