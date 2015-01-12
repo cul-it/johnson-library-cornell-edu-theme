@@ -6878,13 +6878,11 @@ button.close {
   .cu-logo a#insignia-link {
     float: left;
     width: 72px;
-    height: 72px;
-    display: none; }
+    height: 72px; }
   .cu-logo img {
     display: none; }
   .cu-logo .unit-signature-links {
-    float: left;
-    display: none; }
+    float: left; }
   .cu-logo a#cornell-link {
     left: 68px;
     height: 20px; }
@@ -6908,14 +6906,6 @@ button.close {
   float: right; }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .cu-logo {
-    background: url("../img/layout/johnson-cornell.gif") no-repeat 0 0;
-    width: 228px;
-    height: 73px; }
-    .cu-logo .unit-signature-links,
-    .cu-logo a#insignia-link {
-      display: block; } }
 /* Medium devices (desktops, 992px and up) */
 body {
   font-family: "pf_dintext_proregular", arial, san-serif;

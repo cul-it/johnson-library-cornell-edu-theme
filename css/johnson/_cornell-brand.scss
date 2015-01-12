@@ -26,12 +26,10 @@
 		float: left;
 		width: 72px;
 		height: 72px;
-		display: none;
 	}
 	img { display: none; }
 	.unit-signature-links { 
 		float: left;
-		display: none;
 	}
 	a#cornell-link {
 		left: 68px;
@@ -98,15 +96,6 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
-	.cu-logo {
-		background: url("../img/layout/johnson-cornell.gif") no-repeat 0 0;
-		width: 228px;
-		height: 73px;
-		.unit-signature-links,
-		a#insignia-link {
-			display: block;
-		}
-	}
 }
 
 /* Medium devices (desktops, 992px and up) */
