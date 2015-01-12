@@ -7356,6 +7356,8 @@ footer {
   .ui-accordion .ui-accordion-header {
     border-radius: 0 !important;
     background-image: none; }
+  .ui-accordion .ui-accordion-content {
+    height: auto !important; }
 
 .ui-widget-content a {
   color: #b41b1d;

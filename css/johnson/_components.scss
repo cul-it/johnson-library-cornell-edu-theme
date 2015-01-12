@@ -128,6 +128,9 @@
 		border-radius: 0 !important;
 		background-image: none;
 	}
+	.ui-accordion-content {
+		height: auto !important;
+	}
 }
 .ui-widget-content {
 	a {
