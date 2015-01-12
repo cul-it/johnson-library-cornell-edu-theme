@@ -7353,7 +7353,8 @@ footer {
 
 .ui-accordion .ui-accordion-header {
   border-radius: 0 !important;
-  background-image: none; }
+  background-image: none;
+  font-family: "pf_dintext_proregular", arial, san-serif; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
