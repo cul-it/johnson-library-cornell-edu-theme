@@ -7321,6 +7321,9 @@ footer {
 .single-search .btn-jgsm {
   font-size: 14px !important; }
 
+.page-search .main-text .search-form {
+  width: 50%; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hours {
