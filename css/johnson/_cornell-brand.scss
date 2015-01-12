@@ -14,8 +14,8 @@
 .cu-logo {
 	display: block;
 	background: url("../img/layout/johnson-cornell.gif") no-repeat 0 0;
-	width: 143px;
-	height: 45px;
+	width: 228px;
+	height: 73px;
 	a {
 		display: block;
 		border: none;
@@ -77,28 +77,3 @@
 // 	  	padding: 5px 15px; }
 // 	a:hover { background: $ice-blue; }
 // }
-
-// MEDIA QUERIES
-// -------------------------
-
-	// /* Extra small devices (phones, up to 480px) */
-	// /* No media query since this is the default in Bootstrap */
-
-	// /* Small devices (tablets, 768px and up) */
-	// @media (min-width: @screen-sm) { ... }
-
-	// /* Medium devices (desktops, 992px and up) */
-	// @media (min-width: @screen-md) { ... }
-
-	// /* Large devices (large desktops, 1200px and up) */
-	// @media (min-width: @screen-lg) { ... }
-
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm) {
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: $screen-md) {
-
-}

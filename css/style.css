@@ -6868,8 +6868,8 @@ button.close {
 .cu-logo {
   display: block;
   background: url("../img/layout/johnson-cornell.gif") no-repeat 0 0;
-  width: 143px;
-  height: 45px; }
+  width: 228px;
+  height: 73px; }
   .cu-logo a {
     display: block;
     border: none;
@@ -6905,8 +6905,6 @@ button.close {
 .header-search form {
   float: right; }
 
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
 body {
   font-family: "pf_dintext_proregular", arial, san-serif;
   background: #ececed; }
