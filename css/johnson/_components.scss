@@ -108,6 +108,14 @@
 	}
 }
 
+// NAV PILLS
+// -------------------------
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background: $johnson-red;
+}
+
+
+
 
 // MEDIA QUERIES
 // -------------------------

@@ -7342,6 +7342,9 @@ footer {
 .page-search .search-info {
   display: none; }
 
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background: #b41b1d; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hours {
