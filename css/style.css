@@ -7345,6 +7345,9 @@ footer {
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: #b41b1d; }
 
+.nav-pills > li > a {
+  border-radius: 0; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hours {
