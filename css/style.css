@@ -7575,7 +7575,11 @@ body.admin-menu {
 .page-db-popular,
 .page-db-search {
   margin-bottom: 2em;
-  border-bottom: 1px solid #ececed; }
+  border-bottom: 1px solid #ececed;
+  padding-bottom: 1.5em; }
+
+.page-node-258 h2 {
+  font-size: 24px; }
 
 .topic-list a {
   color: #333333;
