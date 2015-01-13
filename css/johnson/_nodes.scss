@@ -72,8 +72,8 @@
 		color: $dark-gray;
 		font-size: 14px;
 	}
-}
-// page search box width
+} 
+// page search box width; NOTE THIS REMOVES AUTOCOMPLETE SPINNER (due background image and padding/height rules)
 .page-db-search {
 	#db_search {
 			width: 75%;
