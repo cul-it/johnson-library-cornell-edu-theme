@@ -7611,6 +7611,9 @@ body.admin-menu {
 .db-availability {
   margin-bottom: .5em; }
 
+.db-topics .label-topic {
+  color: #333; }
+
 .topic-list a {
   color: #333;
   display: inline;
