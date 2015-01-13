@@ -69,7 +69,7 @@
       <ul class="nav nav-tabs" role="tablist" id="myTab">
         <li role="presentation"><a href="#databases" role="tab" data-toggle="tab">Databases<i class="fa fa-chevron-down"></i></a></li>
         <li role="presentation"><a href="#books" role="tab" data-toggle="tab">Books and Journals<i class="fa fa-chevron-down"></i></a></li>
-        <li role="presentation"><a href="#guides" role="tab" data-toggle="tab">Guides and FAQ<i class="fa fa-chevron-down"></i></a></li>
+        <li role="presentation"><a href="#guides" role="tab" data-toggle="tab">Guides and FAQs<i class="fa fa-chevron-down"></i></a></li>
         <li role="presentation"><a href="#help" role="tab" data-toggle="tab">Help<i class="fa fa-chevron-down"></i></a></li>
       </ul>
     </div>
