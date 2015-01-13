@@ -7678,6 +7678,8 @@ body.admin-menu {
 
 #views-exposed-form-databases-search-page-2 .views-widget-filter-field_description_value {
   width: 50%; }
+#views-exposed-form-databases-search-page-2 .btn-primary {
+  background: #b41b1d; }
 
 .topic-list a {
   color: #333;
