@@ -62,14 +62,15 @@
 .db-label {
 	font-weight: bold;
 }
-.db-topics,
 .db-description,
 .db-availability {
 	margin-bottom: .5em;
 }
 .db-topics {
+	margin-bottom: 1em;
 	.label-topic {
 		color: $dark-gray;
+		font-size: 14px;
 	}
 }
 

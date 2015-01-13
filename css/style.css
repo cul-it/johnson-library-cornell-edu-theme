@@ -7606,13 +7606,15 @@ body.admin-menu {
 .db-label {
   font-weight: bold; }
 
-.db-topics,
 .db-description,
 .db-availability {
   margin-bottom: .5em; }
 
-.db-topics .label-topic {
-  color: #333; }
+.db-topics {
+  margin-bottom: 1em; }
+  .db-topics .label-topic {
+    color: #333;
+    font-size: 14px; }
 
 .topic-list a {
   color: #333;
