@@ -48,6 +48,7 @@
       <div class="row">
         <div class="brand">
           <a class="navbar-brand" href="/">Management Library</a>
+          <div class="slogan"><?php print $site_slogan; ?></div>
         </div>
         <div class="navigation">
           <div class="hours">
