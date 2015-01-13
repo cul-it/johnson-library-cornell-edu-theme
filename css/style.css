@@ -7156,7 +7156,7 @@ footer {
   line-height: 1em; }
 
 .slogan {
-  color: white;
+  color: #333;
   font-size: 18px;
   font-style: italic;
   margin-right: 4em;
@@ -7242,7 +7242,9 @@ footer {
 
   .slogan {
     margin-right: 5em;
-    text-align: right; } }
+    text-align: right;
+    color: white;
+    text-shadow: 2px 2px 0px #3f3f3f; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 1200px) {
   .navbar-brand,
