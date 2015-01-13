@@ -100,8 +100,13 @@
 	.views-widget-filter-field_description_value {
 		width: 50%;
 	}
+	// format search button to look like btn-jgsm
 	.btn-primary {
 		background: $johnson-red;
+		border: 1px solid transparent;
+	}
+	.btn-primary:hover {
+		background: black;
 	}
 }
 
