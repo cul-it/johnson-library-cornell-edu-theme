@@ -4,7 +4,7 @@
 .navbar-brand, .navbar-brand:hover {
 	font-size: 29px;
 	text-transform: uppercase;
-	margin: 1em 0 .25em 0;
+	margin: 1em 0 .1em 0;
 	float: none;
 	display: block;
 	text-decoration: none;
@@ -25,9 +25,10 @@
 // }
 .slogan {
 	color: white;
-	font-size: 16px;
+	font-size: 18px;
 	font-style: italic;
-	margin-left: 2em;
+	margin-left: 5em;
+	text-shadow: 2px 2px 0px #3f3f3f;
 }
 .navbar {
 	.nav {
