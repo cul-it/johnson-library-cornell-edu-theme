@@ -59,7 +59,13 @@
 	padding: 1.5em 0;
 	border-bottom: 1px solid $light-gray;
 }
-
+.db-label {
+	font-weight: bold;
+}
+.db-description,
+.db-availability {
+	margin-bottom: 1em;
+}
 
 
 // DATABASE NODE TEMPLATE
