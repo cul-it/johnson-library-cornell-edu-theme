@@ -7248,7 +7248,9 @@ footer {
   .navbar-brand,
   .navbar-brand:hover {
     font-size: 48px;
-    margin-bottom: .25em;
+    margin-bottom: .25em; }
+
+  .slogan {
     margin-right: 4em; } }
 .hours {
   background: white;
