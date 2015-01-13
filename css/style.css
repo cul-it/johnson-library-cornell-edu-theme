@@ -7607,8 +7607,6 @@ body.admin-menu {
   border-bottom: 1px solid #ececed;
   padding-bottom: 1.5em; }
 
-.item-list h2 {
-  font-size: 24px; }
 .item-list ul {
   margin: 0;
   padding: 0;
@@ -7624,6 +7622,8 @@ body.admin-menu {
 .database-item {
   padding: 1.5em 0;
   border-bottom: 1px solid #ececed; }
+  .database-item h2, .database-item h3 {
+    font-size: 24px; }
 
 .db-label {
   font-weight: bold; }

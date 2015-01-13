@@ -8,9 +8,6 @@
 	padding-bottom: 1.5em;
 }
 .item-list {
-	h2 {
-		font-size: 24px;
-	}
 	ul {
 		margin: 0;
 		padding: 0;
@@ -32,6 +29,9 @@
 .database-item {
 	padding: 1.5em 0;
 	border-bottom: 1px solid $light-gray;
+	h2, h3 {
+		font-size: 24px;
+	}
 }
 .db-label {
 	font-weight: bold;
