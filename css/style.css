@@ -7332,7 +7332,7 @@ footer {
 .nav-pills > li > a {
   border-radius: 0; }
 
-.tab-pane {
+.page-db-tabs .tab-pane {
   margin: 1em 0; }
 
 .ui-accordion {

@@ -116,9 +116,12 @@
 .nav-pills > li > a {
 	border-radius: 0;
 }
-.tab-pane {
-	margin: 1em 0;
+.page-db-tabs {
+	.tab-pane {
+		margin: 1em 0;
+	}
 }
+
 
 // UI ACCORDION OVERRIDES
 // -------------------------
