@@ -7675,8 +7675,8 @@ body.admin-menu {
 .views-exposed-form .views-exposed-widget .form-submit {
   margin-top: 0; }
 
-#views-exposed-form-databases-search-page-2 input {
-  width: 75%; }
+#views-exposed-form-databases-search-page-2 .views-widget-filter-field_description_value {
+  width: 50%; }
 
 .topic-list a {
   color: #333;

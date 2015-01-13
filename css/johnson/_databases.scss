@@ -94,9 +94,10 @@
 .views-exposed-form .views-exposed-widget .form-submit {
 	margin-top: 0;
 }
+// search box width
 #views-exposed-form-databases-search-page-2 {
-	input {
-		width: 75%;
+	.views-widget-filter-field_description_value {
+		width: 50%;
 	}
 }
 
