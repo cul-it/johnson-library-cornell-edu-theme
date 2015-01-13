@@ -7616,6 +7616,9 @@ body.admin-menu {
     color: #333;
     font-size: 14px; }
 
+.page-db-search #db_search {
+  width: 90%; }
+
 .topic-list a {
   color: #333;
   display: inline;
@@ -7670,5 +7673,11 @@ body.admin-menu {
     float: left; }
   .content-list .label-topic {
     color: #333; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .page-db-search #db_search {
+    width: 40%; } }
+/* Medium devices (desktops, 992px and up) */
 
 /*# sourceMappingURL=style.css.map */
