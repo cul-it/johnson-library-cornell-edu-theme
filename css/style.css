@@ -7158,8 +7158,7 @@ footer {
 .slogan {
   color: #333;
   font-size: 18px;
-  font-style: italic;
-  margin-right: 4em; }
+  font-style: italic; }
 
 .navbar .nav {
   margin-top: 2.75em; }
@@ -7249,7 +7248,8 @@ footer {
   .navbar-brand,
   .navbar-brand:hover {
     font-size: 48px;
-    margin-bottom: .25em; } }
+    margin-bottom: .25em;
+    margin-right: 4em; } }
 .hours {
   background: white;
   border: 1px solid #cbc3b7;

@@ -28,7 +28,6 @@
 	color: $dark-gray;
 	font-size: 18px;
 	font-style: italic;
-	margin-right: 4em;
 }
 .navbar {
 	.nav {
@@ -182,5 +181,6 @@
 	.navbar-brand:hover {
 		font-size: 48px;
 		margin-bottom: .25em;
+		margin-right: 4em;
 	}
 }
