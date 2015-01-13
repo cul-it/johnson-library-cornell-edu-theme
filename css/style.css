@@ -7248,7 +7248,8 @@ footer {
 @media (min-width: 1200px) {
   .navbar-brand,
   .navbar-brand:hover {
-    font-size: 48px; } }
+    font-size: 48px;
+    margin-bottom: .25em; } }
 .hours {
   background: white;
   border: 1px solid #cbc3b7;
