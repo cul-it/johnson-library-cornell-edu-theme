@@ -7606,9 +7606,10 @@ body.admin-menu {
 .db-label {
   font-weight: bold; }
 
+.db-topics,
 .db-description,
 .db-availability {
-  margin-bottom: 1em; }
+  margin-bottom: .5em; }
 
 .topic-list a {
   color: #333;
