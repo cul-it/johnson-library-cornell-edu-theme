@@ -7147,12 +7147,13 @@ footer {
 .navbar-brand, .navbar-brand:hover {
   font-size: 29px;
   text-transform: uppercase;
-  margin: 1em 0 .1em 0;
+  margin: .5em 0 .25em 0;
   float: none;
   display: block;
   text-decoration: none;
   color: black;
-  padding: .25em 0; }
+  padding: .25em 0;
+  line-height: 1em; }
 
 .slogan {
   color: white;
