@@ -7610,19 +7610,14 @@ body.admin-menu {
   .item-list ul li {
     font-size: 18px;
     margin: 0 0 .5em; }
-  .item-list ul a {
-    color: #333333; }
-    .item-list ul a i {
-      font-size: 75%;
-      margin-left: .5em;
-      color: #b41b1d; }
+  .item-list ul a i {
+    font-size: 75%;
+    margin-left: .5em;
+    color: #b41b1d; }
 
 .database-item {
-  margin: 0 0 1.5em 0;
-  padding: 0 0 1em;
+  padding: 1.5em 0;
   border-bottom: 1px solid #ececed; }
-  .database-item h2 {
-    font-size: 18px; }
 
 .topic-list a {
   color: #333333;
