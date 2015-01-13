@@ -7617,6 +7617,13 @@ body.admin-menu {
       margin-left: .5em;
       color: #b41b1d; }
 
+.database-item {
+  margin: 0 0 1.5em 0;
+  padding: 0 0 1em;
+  border-bottom: 1px solid #ececed; }
+  .database-item h2 {
+    font-size: 18px; }
+
 .topic-list a {
   color: #333333;
   display: inline;
