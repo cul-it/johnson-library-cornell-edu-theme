@@ -107,7 +107,6 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
 	background-color: white;
-	border-left: 0;
-	border-right: 0;
-	border-top: 0;
+	border: 0;
+	border-bottom: 3px solid $pale-tan;
 }
