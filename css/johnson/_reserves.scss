@@ -106,5 +106,6 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 	background: $pale-tan;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
-	background-color: inherit;
+	background-color: #ddd;
+	border: 0;
 }
