@@ -7330,83 +7330,6 @@ footer {
 .page-search .search-info {
   display: none; }
 
-.courselist-form .form-select {
-  height: 34px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857;
-  color: #555555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
-  .courselist-form .form-select:focus {
-    border-color: #66afe9;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
-  .courselist-form .form-select::-moz-placeholder {
-    color: #777777;
-    opacity: 1; }
-  .courselist-form .form-select:-ms-input-placeholder {
-    color: #777777; }
-  .courselist-form .form-select::-webkit-input-placeholder {
-    color: #777777; }
-  .courselist-form .form-select[disabled], .courselist-form .form-select[readonly], fieldset[disabled] .courselist-form .form-select {
-    cursor: not-allowed;
-    background-color: #eeeeee;
-    opacity: 1; }
-
-.course-reserves {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 20px; }
-  .course-reserves > thead > tr > th,
-  .course-reserves > thead > tr > td,
-  .course-reserves > tbody > tr > th,
-  .course-reserves > tbody > tr > td,
-  .course-reserves > tfoot > tr > th,
-  .course-reserves > tfoot > tr > td {
-    padding: 8px;
-    line-height: 1.42857;
-    vertical-align: top;
-    border-top: 1px solid #ddd; }
-  .course-reserves > thead > tr > th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #ddd; }
-  .course-reserves > caption + thead > tr:first-child > th,
-  .course-reserves > caption + thead > tr:first-child > td,
-  .course-reserves > colgroup + thead > tr:first-child > th,
-  .course-reserves > colgroup + thead > tr:first-child > td,
-  .course-reserves > thead:first-child > tr:first-child > th,
-  .course-reserves > thead:first-child > tr:first-child > td {
-    border-top: 0; }
-  .course-reserves > tbody + tbody {
-    border-top: 2px solid #ddd; }
-  @media screen and (max-width: 767px) {
-    .course-reserves {
-      width: 100%;
-      margin-bottom: 15px;
-      overflow-y: hidden;
-      overflow-x: auto;
-      -ms-overflow-style: -ms-autohiding-scrollbar;
-      border: 1px solid #ddd;
-      -webkit-overflow-scrolling: touch; }
-      .course-reserves > .table {
-        margin-bottom: 0; }
-        .course-reserves > .table > thead > tr > th,
-        .course-reserves > .table > thead > tr > td,
-        .course-reserves > .table > tbody > tr > th,
-        .course-reserves > .table > tbody > tr > td,
-        .course-reserves > .table > tfoot > tr > th,
-        .course-reserves > .table > tfoot > tr > td {
-          white-space: nowrap; } }
-
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: #b41b1d; }
 
@@ -7801,5 +7724,82 @@ body.admin-menu {
   background: black;
   color: white;
   text-decoration: none; }
+
+.courselist-form .form-select {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
+  .courselist-form .form-select:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  .courselist-form .form-select::-moz-placeholder {
+    color: #777777;
+    opacity: 1; }
+  .courselist-form .form-select:-ms-input-placeholder {
+    color: #777777; }
+  .courselist-form .form-select::-webkit-input-placeholder {
+    color: #777777; }
+  .courselist-form .form-select[disabled], .courselist-form .form-select[readonly], fieldset[disabled] .courselist-form .form-select {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    opacity: 1; }
+
+.course-reserves {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px; }
+  .course-reserves > thead > tr > th,
+  .course-reserves > thead > tr > td,
+  .course-reserves > tbody > tr > th,
+  .course-reserves > tbody > tr > td,
+  .course-reserves > tfoot > tr > th,
+  .course-reserves > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+    border-bottom: 1px solid #ddd; }
+  .course-reserves > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd; }
+  .course-reserves > caption + thead > tr:first-child > th,
+  .course-reserves > caption + thead > tr:first-child > td,
+  .course-reserves > colgroup + thead > tr:first-child > th,
+  .course-reserves > colgroup + thead > tr:first-child > td,
+  .course-reserves > thead:first-child > tr:first-child > th,
+  .course-reserves > thead:first-child > tr:first-child > td {
+    border-top: 0; }
+  .course-reserves > tbody + tbody {
+    border-top: 2px solid #ddd; }
+  @media screen and (max-width: 767px) {
+    .course-reserves {
+      width: 100%;
+      margin-bottom: 15px;
+      overflow-y: hidden;
+      overflow-x: auto;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      border: 1px solid #ddd;
+      -webkit-overflow-scrolling: touch; }
+      .course-reserves > .table {
+        margin-bottom: 0; }
+        .course-reserves > .table > thead > tr > th,
+        .course-reserves > .table > thead > tr > td,
+        .course-reserves > .table > tbody > tr > th,
+        .course-reserves > .table > tbody > tr > td,
+        .course-reserves > .table > tfoot > tr > th,
+        .course-reserves > .table > tfoot > tr > td {
+          white-space: nowrap; } }
 
 /*# sourceMappingURL=style.css.map */
