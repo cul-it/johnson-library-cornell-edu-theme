@@ -7388,6 +7388,24 @@ footer {
     border-top: 0; }
   .course-reserves > tbody + tbody {
     border-top: 2px solid #ddd; }
+  @media screen and (max-width: 767px) {
+    .course-reserves {
+      width: 100%;
+      margin-bottom: 15px;
+      overflow-y: hidden;
+      overflow-x: auto;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      border: 1px solid #ddd;
+      -webkit-overflow-scrolling: touch; }
+      .course-reserves > .table {
+        margin-bottom: 0; }
+        .course-reserves > .table > thead > tr > th,
+        .course-reserves > .table > thead > tr > td,
+        .course-reserves > .table > tbody > tr > th,
+        .course-reserves > .table > tbody > tr > td,
+        .course-reserves > .table > tfoot > tr > th,
+        .course-reserves > .table > tfoot > tr > td {
+          white-space: nowrap; } }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: #b41b1d; }
