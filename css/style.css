@@ -7362,6 +7362,9 @@ footer {
     background-color: #eeeeee;
     opacity: 1; }
 
+.course-reserves {
+  background-color: transparent; }
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: #b41b1d; }
 
