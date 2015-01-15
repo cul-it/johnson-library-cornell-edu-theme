@@ -7810,4 +7810,10 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   border: 0;
   border-bottom: 3px solid #cbc3b7; }
 
+.reserve-items h3 {
+  margin: 2em 0 1em; }
+
+.block-ares {
+  margin-top: 1em; }
+
 /*# sourceMappingURL=style.css.map */
