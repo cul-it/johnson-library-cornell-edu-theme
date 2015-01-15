@@ -7803,10 +7803,11 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   color: white; }
 
 .toplink {
-  text-align: right; }
+  text-align: right;
+  font-size: 14px; }
   .toplink i {
     font-size: 90%;
-    margin-right: .25em; }
+    margin-right: .3em; }
 
 #skiptocontent a {
   padding: 6px;
