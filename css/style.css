@@ -7808,7 +7808,7 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   background-color: white;
   border: 0;
-  border-bottom: 3px solid #cbc3b7; }
+  border-bottom: 3px solid #ececed; }
 
 .reserve-items h3 {
   margin: 2em 0 1em; }
