@@ -9,7 +9,6 @@
 	.today-hours {
 		float: left;
 		padding: 5px;
-		margin: 5px;
 		span {
 			font-size: 14px;
 			text-transform: uppercase;
@@ -25,7 +24,6 @@
 	.all-hours-link {
 		padding-left: 1em;
 		padding: 5px 5px 5px 10px;
-		margin: 5px;
 	}
 	a {
 		color: black;
@@ -180,10 +178,12 @@
 		border: 1px solid $tan;
 		.today-hours {
 			padding: 5px 0 5px 5px;
+			margin: 5px;
 		}
 		.all-hours-link {
 			border-left: 1px solid $pale-tan;
 			float: left;
+			margin: 5px;
 		}
 	}
 	.page-search {

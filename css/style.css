@@ -7241,8 +7241,7 @@ footer {
   margin-top: -1px; }
   .hours .today-hours {
     float: left;
-    padding: 5px;
-    margin: 5px; }
+    padding: 5px; }
     .hours .today-hours span {
       font-size: 14px;
       text-transform: uppercase;
@@ -7254,8 +7253,7 @@ footer {
       margin-right: .5em; }
   .hours .all-hours-link {
     padding-left: 1em;
-    padding: 5px 5px 5px 10px;
-    margin: 5px; }
+    padding: 5px 5px 5px 10px; }
   .hours a {
     color: black; }
     .hours a i {
@@ -7349,10 +7347,12 @@ footer {
     background: #cbc3b7;
     border: 1px solid #cbc3b7; }
     .hours .today-hours {
-      padding: 5px 0 5px 5px; }
+      padding: 5px 0 5px 5px;
+      margin: 5px; }
     .hours .all-hours-link {
       border-left: 1px solid #efede9;
-      float: left; }
+      float: left;
+      margin: 5px; }
 
   .page-search .main-text .search-form {
     width: 50%; } }
