@@ -147,7 +147,7 @@
 	margin-top: 3em;
 	h2 {
 		font-size: 14px;
-		margin: 0 0 .5em;
+		margin: 0 0 .5em 10px;
 		color: $medium-gray;
 		text-transform: uppercase;
 	}
@@ -191,6 +191,11 @@
 			.search-form {
 				width: 50%;
 			}
+		}
+	}
+	#block-menu-block-4 {
+		h2 {
+			margin: 0 0 .5em 0;
 		}
 	}
 }

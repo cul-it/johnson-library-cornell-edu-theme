@@ -7339,7 +7339,7 @@ footer {
   margin-top: 3em; }
   #block-menu-block-4 h2 {
     font-size: 14px;
-    margin: 0 0 .5em;
+    margin: 0 0 .5em 10px;
     color: #999;
     text-transform: uppercase; }
 
@@ -7358,7 +7358,10 @@ footer {
       margin: 5px; }
 
   .page-search .main-text .search-form {
-    width: 50%; } }
+    width: 50%; }
+
+  #block-menu-block-4 h2 {
+    margin: 0 0 .5em 0; } }
 /* Medium devices (desktops, 992px and up) */
 .resource-tabs .nav-tabs {
   border-bottom: 0;
