@@ -65,9 +65,9 @@
 .navbar-nav {
 	float: right;
 }
-.nav > li > a {
-	padding: 5px 15px;
-}
+// .nav > li > a {
+// 	padding: 5px 15px;
+// }
 
 // MOBILE MAIN NAVIGATION
 // -------------------------
@@ -170,7 +170,9 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-
+	.nav > li > a {
+		padding: 5px 15px;
+	}
 }
 // /* Large devices (large desktops, 1200px and up) */
 @media (min-width: $screen-lg) {

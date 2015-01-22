@@ -7157,9 +7157,6 @@ footer {
 .navbar-nav {
   float: right; }
 
-.nav > li > a {
-  padding: 5px 15px; }
-
 .nav-mobile .navbar-nav {
   float: none;
   margin: 0; }
@@ -7222,6 +7219,9 @@ footer {
   .nav > li > a {
     padding: 4px; } }
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .nav > li > a {
+    padding: 5px 15px; } }
 @media (min-width: 1200px) {
   .navbar-brand,
   .navbar-brand:hover {
