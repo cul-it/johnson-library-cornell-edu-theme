@@ -7566,6 +7566,11 @@ body.admin-menu {
   .content-list .label-topic {
     color: #333; }
 
+.staff-item {
+  padding: 0 0 1em 0; }
+  .staff-item h3 {
+    margin-top: 0; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .page-db-search #db_search {
