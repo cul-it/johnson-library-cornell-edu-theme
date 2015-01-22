@@ -7114,12 +7114,12 @@ footer {
     background-size: cover;
     margin-bottom: 0;
     border-radius: 0;
-    min-height: 175px; } }
+    min-height: 170px; } }
 /* Medium devices (desktops, 992px and up) */
 .navbar-brand, .navbar-brand:hover {
   font-size: 29px;
   text-transform: uppercase;
-  margin: .5em 0 .25em 0;
+  margin: .5em 0 0 0;
   float: none;
   display: block;
   text-decoration: none;
