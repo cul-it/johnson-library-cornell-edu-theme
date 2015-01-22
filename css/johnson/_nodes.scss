@@ -57,9 +57,13 @@
 		margin-top: 0;
 	}
 }
-.staff-title,
-.staff-email {
+.staff-title {
 	font-size: 16px;
+}
+.staff-email {
+	float: left;
+	font-size: 16px;
+	margin-right: .75em;
 }
 
 
