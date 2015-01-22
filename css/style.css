@@ -6941,7 +6941,9 @@ p, li {
 
 img {
   padding: 3px;
-  border: 1px solid #ececed; }
+  border: 1px solid #ececed;
+  max-width: 100%;
+  height: auto; }
 
 .img-left {
   text-align: center;
