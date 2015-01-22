@@ -47,7 +47,7 @@
 .main-text-2col {
 	@include make-sm-column(8);
 	@include make-sm-column-offset(1);
-	padding: 3em 0;
+	padding: 3em 10px;
 }
 .main-text {
 	padding: 3em 0;
@@ -148,6 +148,9 @@ footer {
 		margin-bottom: 0;
 		border-radius: 0;
 		min-height: 170px;
+	}
+	.main-text-2col {
+		padding: 3em 0;
 	}
 }
 
