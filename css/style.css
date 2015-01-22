@@ -7125,7 +7125,8 @@ footer {
   text-decoration: none;
   color: black;
   padding: .25em 0;
-  line-height: 1em; }
+  line-height: 1em;
+  height: auto; }
 
 .slogan {
   color: #333;
