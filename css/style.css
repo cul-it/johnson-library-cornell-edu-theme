@@ -7569,7 +7569,7 @@ body.admin-menu {
 .staff-item {
   padding: 0 0 2em 0; }
   .staff-item h3 {
-    margin-top: 0; }
+    margin-top: .25em; }
 
 .staff-title {
   font-size: 16px; }
