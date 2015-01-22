@@ -6939,9 +6939,6 @@ h2.block-title {
 p, li {
   font-size: 18px; }
 
-li i {
-  margin-left: .5em; }
-
 img {
   padding: 3px;
   border: 1px solid #ececed;
@@ -7044,6 +7041,9 @@ img {
 
 .main-text {
   padding: 3em 0; }
+  .main-text li i {
+    margin-left: .5em;
+    font-size: 75%; }
 
 .main-content {
   background: white; }
