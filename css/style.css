@@ -7324,6 +7324,14 @@ footer {
   display: inline-block;
   margin: 0 0 .25em; }
 
+#block-menu-block-4 {
+  margin-top: 3em; }
+  #block-menu-block-4 h2 {
+    font-size: 14px;
+    margin: 0 0 .5em;
+    color: #999;
+    text-transform: uppercase; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hours {
