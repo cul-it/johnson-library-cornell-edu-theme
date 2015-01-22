@@ -52,10 +52,14 @@
 // -------------------------
 
 .staff-item {
-	padding: 0 0 1em 0;
+	padding: 0 0 2em 0;
 	h3 {
 		margin-top: 0;
 	}
+}
+.staff-title,
+.staff-email {
+	font-size: 18px;
 }
 
 
