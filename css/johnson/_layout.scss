@@ -59,10 +59,10 @@
 	margin: 0;
 	background: $tan;
 	border: none;
-	padding: 20px;
+	padding: 20px 0;
 	h1 {
 		color: white;
-		font-size: 48px;
+		font-size: 36px;
 		margin: 0;
 		line-height: 1;
 		font-family: $font-family-sans-serif;
@@ -151,6 +151,12 @@ footer {
 	}
 	.main-text-2col {
 		padding: 3em 0;
+	}
+	.page-header {
+		padding: 20px;
+		h1 {
+			font-size: 48px;
+		}
 	}
 }
 
