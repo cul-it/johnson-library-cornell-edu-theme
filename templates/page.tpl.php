@@ -103,11 +103,19 @@
   </div>
 </div><!--/resource-content-->
 
+
+<?php
+  // Render the sidebars to see if there's anything in them.
+  $sidebar  = render($page['sidebar']);
+?>
+
 <div class="page-header">
   <div class="container">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
-      <i class="fa fa-bars"></i>
-    </button>
+    <?php if ($sidebar): ?>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+    <?php endif; ?>
     <?php print render($breadcrumb); ?>
     <?php if ($title): ?>
       <h1><?php print $title; ?></h1>
@@ -117,14 +125,8 @@
 
 <div class="main-content">
   <div class="container">
-
-    <?php
-    // Render the sidebars to see if there's anything in them.
-    $sidebar  = render($page['sidebar']);
-      ?>
-
+ 
     <!--if there is a sidebar, then create two columned layout-->
-   
     <?php if ($sidebar): ?>
       <div class="row">
         <div class="sidebar sidebar-collapse collapse">
