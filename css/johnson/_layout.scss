@@ -42,7 +42,7 @@
 // -------------------------
 .sidebar {
 	@include make-sm-column(3);
-	padding: 3em 0;
+	padding: 0;
 }
 .main-text-2col {
 	@include make-sm-column(8);
@@ -166,6 +166,9 @@ footer {
 		h1 {
 			font-size: 48px;
 		}
+	}
+	.sidebar {
+		padding: 3em 0;
 	}
 }
 
