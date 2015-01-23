@@ -7058,6 +7058,8 @@ img {
     margin: 0;
     line-height: 1;
     font-family: "pf_dintext_proregular", arial, san-serif; }
+  .page-header .navbar-toggle {
+    margin: 0; }
 
 .breadcrumb {
   background: inherit;
