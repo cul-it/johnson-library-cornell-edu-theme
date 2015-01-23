@@ -7490,7 +7490,8 @@ footer {
 
 .panel-heading .fa-chevron-down {
   margin-left: .5em;
-  font-size: 80%; }
+  font-size: 80%;
+  color: #b41b1d; }
 
 .panel-title {
   font-size: 18px; }
