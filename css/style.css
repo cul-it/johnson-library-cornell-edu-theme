@@ -7495,6 +7495,9 @@ footer {
 .panel-title {
   font-size: 18px; }
 
+.panel-body {
+  background: white; }
+
 .popular-topics {
   overflow: hidden; }
   .popular-topics li {
