@@ -7306,7 +7306,7 @@ footer {
     font-size: 22px; }
 
 .single-search .form-group {
-  width: 75%;
+  width: 50%;
   float: left;
   margin-right: .25em; }
 .single-search .form-control {
@@ -7368,7 +7368,10 @@ footer {
     width: 50%; }
 
   #block-menu-block-4 h2 {
-    margin: 0 0 .5em 0; } }
+    margin: 0 0 .5em 0; }
+
+  .single-search .form-group {
+    width: 75%; } }
 /* Medium devices (desktops, 992px and up) */
 .resource-tabs .nav-tabs {
   border-bottom: 0;

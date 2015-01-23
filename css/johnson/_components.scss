@@ -79,7 +79,7 @@
 // Books and Journals
 .single-search {
 	.form-group {
-		width: 75%;
+		width: 50%;
 		float: left;
 		margin-right: .25em;
 	}
@@ -196,6 +196,11 @@
 	#block-menu-block-4 {
 		h2 {
 			margin: 0 0 .5em 0;
+		}
+	}
+	.single-search {
+		.form-group {
+			width: 75%;
 		}
 	}
 }
