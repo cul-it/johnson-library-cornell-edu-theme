@@ -26,7 +26,8 @@
 		}
 	}
 }
-.database-item {
+.database-item,
+.faq-item {
 	padding: 1.5em 0;
 	border-bottom: 1px solid $light-gray;
 	h2, h3 {
@@ -47,7 +48,12 @@
 		color: $dark-gray;
 		font-size: 14px;
 	}
-} 
+}
+.faq-item {
+	h3 {
+		font-size: 18px;
+	}
+}
 // page search box width; NOTE THIS REMOVES AUTOCOMPLETE SPINNER (due background image and padding/height rules)
 .page-db-search {
 	#db_search {
