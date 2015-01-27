@@ -7319,13 +7319,16 @@ footer {
       margin-left: .5em;
       color: #b41b1d; }
   .feature p {
-    font-size: 18px; }
+    font-size: 16px; }
   .feature h3 {
     font-size: 16px;
     text-transform: uppercase;
     margin: 0 0 1em; }
   .feature h4 {
     font-size: 22px; }
+
+.feature-img {
+  margin-bottom: 1em; }
 
 .single-search .form-group {
   width: 50%;
