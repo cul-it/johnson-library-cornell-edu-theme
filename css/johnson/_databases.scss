@@ -120,7 +120,7 @@
 	}
 }
 
-// DATABASE NODE TEMPLATE
+// DATABASE AND FAQ NODE TEMPLATE
 // -----------------------------------
 
 // add label styles to topic tag on node template
@@ -148,7 +148,8 @@
 		margin: 0 5px 10px 0;
 	}
 }
-.db-field {
+.db-field,
+.faq-field {
 	margin-bottom: 1em;
 }
 .db-availability {

@@ -7765,7 +7765,8 @@ body.admin-menu {
   display: inline-block;
   margin: 0 5px 10px 0; }
 
-.db-field {
+.db-field,
+.faq-field {
   margin-bottom: 1em; }
 
 .db-availability .field-items {
