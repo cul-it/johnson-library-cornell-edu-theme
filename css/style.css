@@ -7899,6 +7899,14 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   background: black;
   color: white; }
 
+.webform-submit {
+  background: #b41b1d;
+  border-color: #b41b1d; }
+
+.webform-submit:hover {
+  background: black;
+  border-color: black; }
+
 .toplink {
   text-align: right;
   font-size: 14px; }

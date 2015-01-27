@@ -18,6 +18,14 @@
 	background: black;
 	color: white;
 }
+.webform-submit {
+	background: $johnson-red;
+	border-color: $johnson-red;
+}
+.webform-submit:hover {
+	background: black;
+	border-color: black;
+}
 
 // Top link
 // -------------------------
