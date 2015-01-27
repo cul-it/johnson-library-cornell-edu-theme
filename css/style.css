@@ -7628,7 +7628,9 @@ body.admin-menu {
     margin: 0 .5em .75em 0;
     float: left; }
   .content-list .label-topic {
-    color: #333333; }
+    color: #333333;
+    display: inline-block;
+    margin-bottom: 3px; }
 
 .staff-item {
   padding: 0 0 2em 0; }
