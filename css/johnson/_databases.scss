@@ -36,10 +36,13 @@
 	}
 }
 .faq-item {
-	padding: 1em 0;
+	padding: 1em 0 .5em 0;
 	h3 {
 		font-size: 18px;
 	}
+}
+.faq-item:first-child {
+	padding-top: 1.5em;
 }
 .db-label {
 	font-weight: bold;
