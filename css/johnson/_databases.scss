@@ -35,6 +35,12 @@
 		margin-top: 0;
 	}
 }
+.faq-item {
+	padding: 1em 0;
+	h3 {
+		font-size: 18px;
+	}
+}
 .db-label {
 	font-weight: bold;
 }
@@ -47,11 +53,6 @@
 	.label-topic {
 		color: $dark-gray;
 		font-size: 14px;
-	}
-}
-.faq-item {
-	h3 {
-		font-size: 18px;
 	}
 }
 // page search box width; NOTE THIS REMOVES AUTOCOMPLETE SPINNER (due background image and padding/height rules)
