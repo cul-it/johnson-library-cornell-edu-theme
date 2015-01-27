@@ -17,7 +17,7 @@
 <?php endif; ?>
 
 <?php if (!empty ($content['taxonomy_vocabulary_1'])) : ?>
-  <div class="faq-field faq-list">
+  <div class="faq-field topic-list">
       <?php print render($content['taxonomy_vocabulary_1']); ?>
   </div>
 <?php endif; ?>
