@@ -43,6 +43,7 @@
 }
 .feature {
 	@include make-sm-column(6);
+	margin-bottom: 2em;
 	img {
 		max-width: 100%;
 		height: auto;
