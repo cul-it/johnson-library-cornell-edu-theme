@@ -150,5 +150,5 @@
   jQuery(document).ready(function() { 
   var randomImages = ['1','2','3']; 
   var rndNum = Math.floor(Math.random() * randomImages.length); 
-  jQuery(".image-wrapper").css({ background: "url('/sites/all/themes/johnclairmiller/img/banner/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
+  jQuery(".image-wrapper").css({ background: "url('/sites/all/themes/johnsonlibrary/img/banner/" + randomImages[rndNum] + ".jpg') no-repeat" }); });
 </script>
