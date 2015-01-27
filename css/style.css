@@ -7209,9 +7209,12 @@ footer {
     color: black;
     font-size: 16px;
     padding: 10px 15px;
-    display: block; }
+    display: block;
+    font-weight: normal; }
   .sidebar .block-title a:hover {
     text-decoration: none; }
+  .sidebar .block-title .active {
+    font-weight: 700; }
 .sidebar .nav > li > a {
   border-bottom: solid 1px #d3d2d2; }
 .sidebar .nav > li > a:hover {
