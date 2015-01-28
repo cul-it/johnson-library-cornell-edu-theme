@@ -7162,7 +7162,8 @@ footer {
   height: auto; }
 
 .slogan {
-  color: #333333;
+  color: white;
+  text-shadow: 2px 2px 0px #3f3f3f;
   font-size: 18px;
   font-style: italic;
   margin-bottom: 1em; }
@@ -7247,9 +7248,7 @@ footer {
   .slogan {
     margin-right: 5em;
     margin-bottom: 0;
-    text-align: right;
-    color: white;
-    text-shadow: 2px 2px 0px #3f3f3f; }
+    text-align: right; }
 
   .hours {
     font-size: 90%; }
