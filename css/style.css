@@ -7178,6 +7178,7 @@ footer {
     .navbar .nav li a {
       color: #333333;
       text-decoration: none;
+      background: white;
       background: rgba(255, 255, 255, 0.9); }
       .navbar .nav li a i {
         font-size: 14px;

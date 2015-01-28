@@ -34,6 +34,7 @@
 			a {
 				color: $dark-gray;
 				text-decoration: none;
+				background: white; // for stupid IE8
 				background: rgba(255, 255, 255, 0.9);
 				i {
 					font-size: 14px;
