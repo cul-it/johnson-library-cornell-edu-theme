@@ -1,6 +1,16 @@
 // BACKGROUND IMAGE
 // -------------------------
-
+.image-wrapper {
+	background: url("../img/banner/4.jpg") no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover !important;
+	margin-bottom: 0;
+	border-radius: 0;
+	min-height: 170px;
+	background-position: center bottom !important;
+}
 
 // HOME PAGE
 // -------------------------
@@ -148,17 +158,6 @@ footer {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
-	.image-wrapper {
-		background: url("../img/banner.jpg") no-repeat center bottom;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover !important;
-		margin-bottom: 0;
-		border-radius: 0;
-		min-height: 170px;
-		background-position: center bottom !important;
-	}
 	.main-text-2col {
 		padding: 3em 0;
 	}
