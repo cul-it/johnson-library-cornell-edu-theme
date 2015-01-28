@@ -7155,7 +7155,8 @@ footer {
   float: none;
   display: block;
   text-decoration: none;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px 0px #3f3f3f;
   padding: .25em 0;
   line-height: 1em;
   height: auto; }
@@ -7236,8 +7237,6 @@ footer {
 
   .navbar-brand,
   .navbar-brand:hover {
-    color: white;
-    text-shadow: 2px 2px 0px #3f3f3f;
     font-size: 34px;
     margin-bottom: 0;
     height: 50px; }

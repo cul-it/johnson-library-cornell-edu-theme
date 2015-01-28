@@ -8,7 +8,9 @@
 	float: none;
 	display: block;
 	text-decoration: none;
-	color: black;
+	// color: black;
+	color: white;
+	text-shadow: 2px 2px 0px rgba(63, 63, 63, 1);
 	padding: .25em 0;
 	line-height: 1em;
 	height: auto;
@@ -137,8 +139,8 @@
 	}
 	.navbar-brand,
 	.navbar-brand:hover {
-		color: white;
-		text-shadow: 2px 2px 0px rgba(63, 63, 63, 1);
+		// color: white;
+		// text-shadow: 2px 2px 0px rgba(63, 63, 63, 1);
 		font-size: 34px;
 		margin-bottom: 0;
 		height: 50px;
