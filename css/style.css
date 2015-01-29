@@ -7536,8 +7536,9 @@ footer {
   .popular-topics a {
     font-size: 16px;
     color: #333333; }
-  .popular-topics .all-topics {
-    color: #b41b1d; }
+
+.all-topics a {
+  color: #b41b1d; }
 
 .see-all {
   margin: 2em 0 0 0; }
