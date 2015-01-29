@@ -7488,18 +7488,13 @@ footer {
     .panel .panel-body ul li {
       font-size: 18px;
       margin: 0 0 .5em; }
-    .resource-content .tab-content ul a,
-    .resource-content .panel-body ul a,
-    .panel .tab-content ul a,
-    .panel .panel-body ul a {
-      color: #333333; }
-      .resource-content .tab-content ul a i,
-      .resource-content .panel-body ul a i,
-      .panel .tab-content ul a i,
-      .panel .panel-body ul a i {
-        font-size: 75%;
-        margin-left: .5em;
-        color: #b41b1d; }
+    .resource-content .tab-content ul a i,
+    .resource-content .panel-body ul a i,
+    .panel .tab-content ul a i,
+    .panel .panel-body ul a i {
+      font-size: 75%;
+      margin-left: .5em;
+      color: #999999; }
   .resource-content .tab-content .form-control,
   .resource-content .panel-body .form-control,
   .panel .tab-content .form-control,
