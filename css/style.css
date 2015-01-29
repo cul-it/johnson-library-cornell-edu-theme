@@ -7315,12 +7315,10 @@ footer {
   .feature img.pull-left,
   .feature .pull-left {
     margin: 0 1em 1em 0; }
-  .feature a {
-    color: #333333; }
-    .feature a i {
-      font-size: 75%;
-      margin-left: .5em;
-      color: #b41b1d; }
+  .feature a i {
+    font-size: 75%;
+    margin-left: .35em;
+    color: #999999; }
   .feature p {
     font-size: 16px; }
   .feature h3 {
@@ -7411,7 +7409,7 @@ footer {
     font-size: 20px; }
     .resource-tabs .nav-tabs li i {
       font-size: 75%;
-      margin-left: .5em; }
+      margin-left: .35em; }
   .resource-tabs .nav-tabs .nav > li > a {
     padding: 15px 20px;
     border-radius: 0;
