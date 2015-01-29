@@ -10,7 +10,9 @@ body {
 a {
 	color: $link-color;
 }
-a:hover {
+a:hover,
+a:active,
+a:focus {
 	color: $link-color-hover;
 }
 

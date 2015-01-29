@@ -6938,7 +6938,9 @@ body {
 a {
   color: #b41b1d; }
 
-a:hover {
+a:hover,
+a:active,
+a:focus {
   color: #2e2e2e; }
 
 h1, h2, h3, h4, h5, h6,
