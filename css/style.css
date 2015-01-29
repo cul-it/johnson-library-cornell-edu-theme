@@ -7534,7 +7534,8 @@ footer {
     float: left;
     margin: 0 5px 10px 0 !important; }
   .popular-topics a {
-    font-size: 16px; }
+    font-size: 16px;
+    color: #333333; }
 
 .see-all {
   margin: 2em 0 0 0; }
