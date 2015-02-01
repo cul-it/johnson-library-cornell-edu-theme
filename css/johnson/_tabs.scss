@@ -161,7 +161,14 @@
 	a {
 		color: $johnson-red;
 	}
-	
+}
+.all-link {
+	color: $johnson-red;
+	i {
+		font-size: 75%;
+		margin-left: .5em;
+		color: $medium-gray;
+	}
 }
 
 // See all buttons
