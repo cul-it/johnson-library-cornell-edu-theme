@@ -7290,12 +7290,10 @@ footer {
   .hours .all-hours-link {
     padding-left: 1em;
     padding: 5px 5px 5px 10px; }
-  .hours a {
-    color: black; }
-    .hours a i {
-      color: #b41b1d;
-      font-size: 75%;
-      margin-left: .5em; }
+  .hours a i {
+    color: #999999;
+    font-size: 75%;
+    margin-left: .5em; }
 
 .featured-content {
   padding: 40px 0;
