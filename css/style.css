@@ -7346,6 +7346,9 @@ footer {
 .page-search .search-info {
   display: none; }
 
+.block-simplesamlphp-auth p {
+  margin-bottom: 3em; }
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   background: #b41b1d; }
 
