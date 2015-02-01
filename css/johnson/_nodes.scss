@@ -69,6 +69,14 @@
 	margin-right: .75em;
 }
 
+// WORKSHOPS
+// -------------------------
+#block-views-workshops-block {
+	// add top margin back to h2 because it isn't the first contentelement on this page
+	.block-title {
+		margin-top: 1em;
+	}
+}
 
 // MEDIA QUERIES
 // -------------------------

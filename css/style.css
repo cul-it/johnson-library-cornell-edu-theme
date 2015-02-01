@@ -7652,6 +7652,9 @@ body.admin-menu {
   font-size: 16px;
   margin-right: .75em; }
 
+#block-views-workshops-block .block-title {
+  margin-top: 1em; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .page-db-search #db_search {
