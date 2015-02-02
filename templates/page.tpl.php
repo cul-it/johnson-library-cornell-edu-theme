@@ -26,9 +26,11 @@
       </div>
       <div class="search-box">
         <button class="btn btn-default" data-toggle="collapse" data-target=".search-collapse">
+          <span class="sr-only">Search</span>
           <i class="fa fa-search"></i>
         </button>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navigation-collapse">
+          <span class="sr-only">Menu</span>
           <i class="fa fa-bars"></i>
         </button>
       </div>
@@ -113,6 +115,7 @@
   <div class="container">
     <?php if ($sidebar): ?>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+        <span class="sr-only">Menu</span>
         <i class="fa fa-bars"></i>
       </button>
     <?php endif; ?>
