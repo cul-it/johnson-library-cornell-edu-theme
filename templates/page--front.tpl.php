@@ -64,7 +64,7 @@
     </div>
   </div>
 
-  <div class="resource-tabs">
+  <div class="resource-tabs" id="maincontent">
     <div class="container">
       <!-- Nav tabs -->
       <ul class="nav nav-tabs" role="tablist" id="myTab">

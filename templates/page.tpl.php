@@ -123,7 +123,7 @@
   </div>
 </div>
 
-<div class="main-content">
+<div class="main-content" id="maincontent">
   <div class="container">
  
     <!--if there is a sidebar, then create two columned layout-->
