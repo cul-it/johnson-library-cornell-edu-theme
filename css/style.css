@@ -7631,7 +7631,8 @@ body.admin-menu {
 .label-topic {
   background: #ececed;
   font-weight: normal;
-  font-size: 12px; }
+  font-size: 12px;
+  text-decoration: none; }
 
 .label-topic:hover,
 .label-topic:active {
