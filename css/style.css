@@ -7541,7 +7541,8 @@ footer {
     text-decoration: none; }
 
 .all-topics a {
-  color: #b41b1d; }
+  color: #b41b1d;
+  text-decoration: underline; }
 
 .all-link {
   color: #b41b1d;
