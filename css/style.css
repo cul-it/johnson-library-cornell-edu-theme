@@ -7543,6 +7543,8 @@ footer {
 .all-topics a {
   color: #b41b1d;
   text-decoration: underline; }
+.all-topics a:hover {
+  color: black; }
 
 .all-link {
   color: #b41b1d;
