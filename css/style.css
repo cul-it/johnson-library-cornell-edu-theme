@@ -6936,7 +6936,8 @@ body {
   background: #ececed; }
 
 a {
-  color: #b41b1d; }
+  color: #b41b1d;
+  text-decoration: underline; }
 
 a:hover,
 a:active,
