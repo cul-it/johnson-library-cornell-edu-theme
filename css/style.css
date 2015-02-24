@@ -7806,7 +7806,8 @@ body.admin-menu {
   vertical-align: middle;
   padding: 6px 12px;
   text-transform: capitalize;
-  font-size: 18px; }
+  font-size: 18px;
+  text-decoration: none; }
 .db-url a:hover {
   background: black;
   color: white;
