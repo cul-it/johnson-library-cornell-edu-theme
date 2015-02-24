@@ -7721,7 +7721,8 @@ body.admin-menu {
   margin-bottom: 1em; }
   .db-topics .label-topic {
     color: #333333;
-    font-size: 14px; }
+    font-size: 14px;
+    text-decoration: none; }
 
 .page-db-search #db_search {
   width: 75%;
