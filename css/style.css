@@ -7780,7 +7780,8 @@ body.admin-menu {
   border-radius: .25em;
   font-size: 14px;
   background: #ececed;
-  font-weight: normal; }
+  font-weight: normal;
+  text-decoration: none; }
 .topic-list a:hover {
   text-decoration: none;
   background: #b31b1b;
