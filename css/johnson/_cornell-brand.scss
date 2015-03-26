@@ -62,6 +62,9 @@
 		width: 100%;
 	}
 }
+.search-collapse.collapse {
+	display: none;
+}
 
 
 // MEDIA QUERIES
@@ -92,6 +95,9 @@
 		form {
 			width: 40%;
 		}
+	}
+	.search-collapse.collapse {
+		display: block;
 	}
 }
 
