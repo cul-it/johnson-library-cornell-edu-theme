@@ -6906,16 +6906,16 @@ button.close {
   .search-box .btn-mobile i {
     color: #b31b1b;
     font-size: 18px; }
-.search-box .btn:hover {
+.search-box .btn-mobile:hover {
   background: white; }
+.search-box .btn-mobile:active, .search-box .btn-mobile:focus {
+  box-shadow: none; }
 
 .header-search {
   margin: 10px 0; }
   .header-search form {
     float: right;
     width: 100%; }
-  .header-search .btn:focus, .header-search .btn:active {
-    box-shadow: none; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {

@@ -62,8 +62,11 @@
 			font-size: 18px;
 		}
 	}
-	.btn:hover {
+	.btn-mobile:hover {
 		background: white;
+	}
+	.btn-mobile:active, .btn-mobile:focus {
+		box-shadow: none;
 	}
 }
 .header-search {
@@ -71,9 +74,6 @@
 	form {
 		float: right;
 		width: 100%;
-	}
-	.btn:focus, .btn:active {
-		box-shadow: none;
 	}
 }
 
