@@ -33,11 +33,9 @@
           <span class="sr-only">Menu</span>
           <i class="fa fa-bars"></i>
         </button>
-        <div class="search-collapse collapse hidden-xs">
-          <div class="container">
-            <div class="header-search">
-              <?php print render($page['search']); ?>
-            </div>
+        <div class="hidden-xs">
+          <div class="header-search">
+            <?php print render($page['search']); ?>
           </div>
         </div>
       </div>
