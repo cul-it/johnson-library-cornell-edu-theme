@@ -1,12 +1,13 @@
 <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
-<div class="search-collapse visible-xs">
-  <div class="container">
-    <div class="header-search">
-      <?php print render($page['search']); ?>
+<div class="visible-xs">
+  <div class="search-collapse collapse">
+    <div class="container">
+      <div class="header-search">
+        <?php print render($page['search']); ?>
+      </div>
     </div>
   </div>
 </div>
-
 
 <div class="cornell-brand">
   <div class="container">
