@@ -1,9 +1,10 @@
 <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
-
-<div class="search-collapse collapse">
-  <div class="container">
-    <div class="header-search">
-      <?php print render($page['search']); ?>
+<div class="visible-xs">
+  <div class="search-collapse collapse">
+    <div class="container">
+      <div class="header-search">
+        <?php print render($page['search']); ?>
+      </div>
     </div>
   </div>
 </div>
@@ -25,14 +26,19 @@
         </div>
       </div>
       <div class="search-box">
-        <button class="btn btn-default" data-toggle="collapse" data-target=".search-collapse">
+        <button class="btn btn-default btn-mobile" data-toggle="collapse" data-target=".search-collapse">
           <span class="sr-only">Search</span>
           <i class="fa fa-search"></i>
         </button>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navigation-collapse">
+        <button type="button" class="navbar-toggle btn-mobile" data-toggle="collapse" data-target=".navigation-collapse">
           <span class="sr-only">Menu</span>
           <i class="fa fa-bars"></i>
         </button>
+        <div class="hidden-xs">
+          <div class="header-search">
+            <?php print render($page['search']); ?>
+          </div>
+        </div>
       </div>
     </div>
   </div>
