@@ -1,9 +1,20 @@
+.header-search {
+	margin: 10px 0;
+	form {
+		float: right;
+		width: 100%;
+	}
+}
+
 .cornell-brand {
 	background: white;
 	font-family: $cornell-font;
 	padding: 10px 0;
 	img {
 		border: 0;
+	}
+	.header-search {
+		margin-top: 20px;
 	}
 }
 .cornell-logo {
@@ -62,10 +73,6 @@
 		width: 100%;
 	}
 }
-// .search-collapse.collapse {
-// 	display: none;
-// }
-
 
 // MEDIA QUERIES
 // -------------------------
@@ -96,9 +103,6 @@
 			width: 40%;
 		}
 	}
-	// .search-collapse.collapse {
-	// 	display: block;
-	// }
 }
 
 /* Medium devices (desktops, 992px and up) */

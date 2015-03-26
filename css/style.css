@@ -6848,12 +6848,20 @@ button.close {
   src: url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.woff2") format("woff2"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.woff") format("woff"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.ttf") format("truetype"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.svg#pf_dintext_proregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+.header-search {
+  margin: 10px 0; }
+  .header-search form {
+    float: right;
+    width: 100%; }
+
 .cornell-brand {
   background: white;
   font-family: verdana, sans-serif;
   padding: 10px 0; }
   .cornell-brand img {
     border: 0; }
+  .cornell-brand .header-search {
+    margin-top: 20px; }
 
 .cornell-logo {
   position: relative;
