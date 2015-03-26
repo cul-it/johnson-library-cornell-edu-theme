@@ -72,6 +72,9 @@
 		float: right;
 		width: 100%;
 	}
+	.btn:focus {
+		box-shadow: none;
+	}
 }
 
 // MEDIA QUERIES
