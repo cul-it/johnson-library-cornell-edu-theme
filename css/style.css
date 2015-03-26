@@ -6914,6 +6914,8 @@ button.close {
   .header-search form {
     float: right;
     width: 100%; }
+  .header-search .btn {
+    padding-bottom: 7px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
