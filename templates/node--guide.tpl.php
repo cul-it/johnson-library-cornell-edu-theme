@@ -11,7 +11,7 @@
 
 <?php if (!empty ($content['field_guideurl'])) : ?>
 	<div class="db-field db-url">
-    <a href="<?php print render($content['field_guideurl']); ?>" class="btn-jgsm">Go to <?php print render($content['title']); ?></a>
+  	<?php print render($content['field_guideurl']); ?>
   </div>
 <?php endif; ?>
 
