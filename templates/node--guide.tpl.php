@@ -11,8 +11,8 @@
 
 <?php if (!empty ($content['field_guideurl'])) : ?>
 	<div class="db-field db-url">
-  		<?php print render($content['field_guideurl']); ?>
-  	</div>
+    <a href="<?php print render($content['field_guideurl']); ?>" class="btn-jgsm">Go to <?php print render($content['title']); ?></a>
+  </div>
 <?php endif; ?>
 
 <?php if (!empty ($content['taxonomy_vocabulary_1'])) : ?>
