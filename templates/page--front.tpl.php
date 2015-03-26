@@ -1,4 +1,12 @@
 <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
+<div class="search-collapse collapse visible-xs">
+  <div class="container">
+    <div class="header-search">
+      <?php print render($page['search']); ?>
+    </div>
+  </div>
+</div>
+
 
 <div class="cornell-brand">
   <div class="container">
@@ -25,7 +33,7 @@
           <span class="sr-only">Menu</span>
           <i class="fa fa-bars"></i>
         </button>
-        <div class="search-collapse collapse">
+        <div class="search-collapse collapse hidden-xs">
           <div class="container">
             <div class="header-search">
               <?php print render($page['search']); ?>
