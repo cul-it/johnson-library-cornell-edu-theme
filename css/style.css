@@ -6914,7 +6914,7 @@ button.close {
   .header-search form {
     float: right;
     width: 100%; }
-  .header-search .btn:focus {
+  .header-search .btn:focus, .header-search .btn:active {
     box-shadow: none; }
 
 /* Small devices (tablets, 768px and up) */
