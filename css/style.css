@@ -6914,8 +6914,6 @@ button.close {
   .header-search form {
     float: right;
     width: 100%; }
-  .header-search .btn {
-    padding-bottom: 7px; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -7187,7 +7185,7 @@ footer {
   font-size: 16px;
   border-radius: 0;
   color: #b41b1d;
-  padding: 0; }
+  padding: 4px 0 0; }
 
 .navbar-nav {
   float: right; }
