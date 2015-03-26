@@ -41,7 +41,7 @@
 	}
 }
 .search-box {
-	.btn {
+	.btn-mobile {
 		float: right;
 		border: 0;
 		border-radius: 0;
@@ -86,7 +86,7 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.search-box {
-		.btn {
+		.btn-mobile {
 			margin-top: 1.5em;
 			display: none;
 		}

@@ -6890,12 +6890,12 @@ button.close {
     height: 45px;
     width: 155px; }
 
-.search-box .btn {
+.search-box .btn-mobile {
   float: right;
   border: 0;
   border-radius: 0;
   margin-top: .3em; }
-  .search-box .btn i {
+  .search-box .btn-mobile i {
     color: #b31b1b;
     font-size: 18px; }
 .search-box .btn:hover {
@@ -6912,7 +6912,7 @@ button.close {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .search-box .btn {
+  .search-box .btn-mobile {
     margin-top: 1.5em;
     display: none; }
 
