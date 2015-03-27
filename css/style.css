@@ -6980,7 +6980,7 @@ img {
     color: #333; } }
 /* Medium devices (desktops, 992px and up) */
 .image-wrapper {
-  background: #686868 !important;
+  background: #686868;
   margin-bottom: 0;
   border-radius: 0;
   min-height: 170px; }
