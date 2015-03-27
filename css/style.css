@@ -7283,12 +7283,10 @@ footer {
       text-transform: uppercase;
       margin: 0 .75em 0 0;
       font-weight: 700;
-      line-height: 1.4em;
-      display: block; }
+      line-height: 1.4em; }
     .hours .today-hours i {
       color: #b31b1b;
-      margin-right: .5em;
-      display: none; }
+      margin-right: .5em; }
   .hours .all-hours-link {
     padding-left: 1em;
     padding: 5px 5px 5px 10px; }
@@ -7395,10 +7393,6 @@ footer {
       border-left: 1px solid #efede9;
       float: left;
       margin: 5px; }
-    .hours span {
-      display: inline; }
-    .hours i {
-      display: block; }
 
   .page-search .main-text .search-form {
     width: 50%; }

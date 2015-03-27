@@ -15,13 +15,11 @@
 			margin: 0 .75em 0 0;
 			font-weight: 700;
 			line-height: 1.4em;
-			display: block;
 		}
 		i {
-			color: $cornell-primary;
-			margin-right: .5em;
-			display: none; // hide on mobile for spacing
-		}
+				color: $cornell-primary;
+				margin-right: .5em;
+			}
 	}
 	.all-hours-link {
 		padding-left: 1em;
@@ -196,12 +194,6 @@
 			border-left: 1px solid $pale-tan;
 			float: left;
 			margin: 5px;
-		}
-		span {
-			display: inline;
-		}
-		i {
-			display: block;
 		}
 	}
 	.page-search {
