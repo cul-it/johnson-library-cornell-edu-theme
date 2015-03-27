@@ -1,11 +1,15 @@
 // BACKGROUND IMAGE
 // -------------------------
 .image-wrapper {
-	background: $charcoal-gray;
+	background: url("../img/banner/3.jpg") no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover !important;
 	margin-bottom: 0;
 	border-radius: 0;
 	min-height: 170px;
-	
+	background-position: center bottom !important;
 }
 
 // HOME PAGE
@@ -165,15 +169,6 @@ footer {
 	}
 	.sidebar {
 		padding: 3em 0;
-	}
-	//background image on tablet size and up
-	.image-wrapper {
-		background: url("../img/banner/3.jpg") no-repeat center bottom;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover !important;
-		background-position: center bottom !important;
 	}
 }
 
