@@ -6845,7 +6845,7 @@ button.close {
 @font-face {
   font-family: 'pf_dintext_proregular';
   src: url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.eot");
-  src: url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.woff2") format("woff2"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.woff") format("woff"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.ttf") format("truetype"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.svg#pf_dintext_proregular") format("svg");
+  src: url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.woff") format("woff"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.ttf") format("truetype"), url("../fonts/parachute/parachute_-_pfdintextpro-regular-webfont.svg#pf_dintext_proregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .header-search {
