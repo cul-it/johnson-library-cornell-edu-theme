@@ -7,19 +7,11 @@
  * @see https://drupal.org/node/1728164
  */
 ?>
-<?php
-  $dburl = render($content['field_guideurl']);
-  $title = render($content['title']);
-?>
-
-
 
 
 <?php if (!empty ($content['field_guideurl'])) : ?>
 	<div class="db-field db-url">
-  	<!--<?php print render($content['field_guideurl']); ?>-->
-    <a href="<?php print $dburl; ?>" class="btn-jgsm">Connect to '. $title .'</a>
-
+  	<?php print render($content['field_guideurl']); ?>
   </div>
 <?php endif; ?>
 
