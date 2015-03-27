@@ -18,7 +18,7 @@
 <?php if (!empty ($content['field_guideurl'])) : ?>
 	<div class="db-field db-url">
   	<!--<?php print render($content['field_guideurl']); ?>-->
-    <a href="'.$dburl.'" class="btn-jgsm">Connect to '. $title .'</a>
+    <a href="<?php print $dburl; ?>" class="btn-jgsm">Connect to '. $title .'</a>
 
   </div>
 <?php endif; ?>
