@@ -7389,7 +7389,6 @@ footer {
       padding: 5px 0 5px 5px;
       margin: 5px; }
     .hours .all-hours-link {
-      border-left: 1px solid #efede9;
       float: left;
       margin: 5px; }
 
@@ -7405,6 +7404,9 @@ footer {
   #block-menu-block-4 {
     margin-top: 3em; } }
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .hours .all-hours-link {
+    border-left: 1px solid #efede9; } }
 .resource-tabs .nav-tabs {
   border-bottom: 0;
   margin-bottom: 0; }

@@ -190,7 +190,6 @@
 			margin: 5px;
 		}
 		.all-hours-link {
-			border-left: 1px solid $pale-tan;
 			float: left;
 			margin: 5px;
 		}
@@ -219,5 +218,9 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md) {
-
+	.hours {
+		.all-hours-link {
+			border-left: 1px solid $pale-tan;
+		}
+	}
 }
