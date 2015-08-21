@@ -17,7 +17,7 @@
       	</div>
     <?php endif; ?>
     <?php if (!empty ($content['field_status'])) : ?>
-      <div class="db-field topic-list">
+      <div class="db-field status-list">
           <?php print render($content['field_status']); ?>
       </div>
     <?php endif; ?>
