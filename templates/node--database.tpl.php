@@ -10,28 +10,30 @@
 
 
 <div class="pull-right col-sm-4 connect-box">
-  <div class="well">
-    <?php if (!empty ($content['field_dbaseurl'])) : ?>
-    	<div class="db-field db-url">
-      		<?php print render($content['field_dbaseurl']); ?>
-      	</div>
-    <?php endif; ?>
-    <?php if (!empty ($content['field_status'])) : ?>
-      <div class="db-field status-list">
-          <?php print render($content['field_status']); ?>
-      </div>
-    <?php endif; ?>
-    <?php if (!empty ($content['field_technology_note'])) : ?>
-      <div class="db-field db-tech-note">
-          <?php print render($content['field_technology_note']); ?>
+  <?php if (!empty ($content['field_dbaseurl']) || ($content['field_status']) || ($content['field_technology_note']) || ($content['field_scope_note'])) : ?>
+    <div class="well">
+      <?php if (!empty ($content['field_dbaseurl'])) : ?>
+      	<div class="db-field db-url">
+        		<?php print render($content['field_dbaseurl']); ?>
+        	</div>
+      <?php endif; ?>
+      <?php if (!empty ($content['field_status'])) : ?>
+        <div class="db-field status-list">
+            <?php print render($content['field_status']); ?>
         </div>
-    <?php endif; ?>
-    <?php if (!empty ($content['field_scope_note'])) : ?>
-      <div class="db-field db-scope-note">
-          <?php print render($content['field_scope_note']); ?>
-        </div>
-    <?php endif; ?>
-  </div>
+      <?php endif; ?>
+      <?php if (!empty ($content['field_technology_note'])) : ?>
+        <div class="db-field db-tech-note">
+            <?php print render($content['field_technology_note']); ?>
+          </div>
+      <?php endif; ?>
+      <?php if (!empty ($content['field_scope_note'])) : ?>
+        <div class="db-field db-scope-note">
+            <?php print render($content['field_scope_note']); ?>
+          </div>
+      <?php endif; ?>
+    </div>
+  <?php endif; ?>
 </div>
 
 <?php if (!empty ($content['field_description'])) : ?>
