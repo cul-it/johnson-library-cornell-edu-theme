@@ -16,9 +16,9 @@
       		<?php print render($content['field_dbaseurl']); ?>
       	</div>
     <?php endif; ?>
-    <?php if (!empty ($content['taxonomy_vocabulary_4'])) : ?>
+    <?php if (!empty ($content['field_status'])) : ?>
       <div class="db-field topic-list">
-          <?php print render($content['taxonomy_vocabulary_4']); ?>
+          <?php print render($content['field_status']); ?>
       </div>
     <?php endif; ?>
     <?php if (!empty ($content['field_technology_note'])) : ?>
