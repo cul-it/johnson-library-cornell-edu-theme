@@ -7816,8 +7816,11 @@ body.admin-menu {
   font-size: 75%;
   margin-left: .5em; }
 
-.status-list .field-item {
-  margin: 0 0 1em 0; }
+.status-list {
+  margin-bottom: 1em; }
+  .status-list .field-item {
+    margin: 0 0 .5em 0;
+    font-size: 18px; }
 
 .courselist-form .form-select {
   height: 34px;
