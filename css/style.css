@@ -7772,6 +7772,9 @@ body.admin-menu {
 #views-exposed-form-databases-search-page-2 .btn-primary:hover {
   background: black; }
 
+.connect-link i {
+  margin-left: .4em; }
+
 .topic-list a {
   color: #333;
   display: inline;
