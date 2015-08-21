@@ -9,7 +9,7 @@
 ?>
 
 
-<div class="pull-right col-sm-4">
+<div class="pull-right col-sm-4 connect-box">
   <div class="well">
     <?php if (!empty ($content['field_dbaseurl'])) : ?>
     	<div class="db-field db-url">

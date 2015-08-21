@@ -7822,6 +7822,15 @@ body.admin-menu {
     margin: 0 0 .5em 0;
     font-size: 18px; }
 
+.connect-box {
+  float: none !important;
+  padding: 0; }
+
+@media (min-width: 768px) {
+  .connect-box {
+    float: right !important;
+    padding-left: 15px;
+    padding-right: 15px; } }
 .courselist-form .form-select {
   height: 34px;
   padding: 6px 12px;
