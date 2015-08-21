@@ -26,6 +26,11 @@
           <?php print render($content['field_technology_note']); ?>
         </div>
     <?php endif; ?>
+    <?php if (!empty ($content['field_scope_note'])) : ?>
+      <div class="db-field db-scope-note">
+          <?php print render($content['field_scope_note']); ?>
+        </div>
+    <?php endif; ?>
   </div>
 </div>
 
@@ -39,30 +44,6 @@
 	<div class="db-field db-use">
   		<?php print render($content['field_use']); ?>
   	</div>
-<?php endif; ?>
-
-<?php if (!empty ($content['field_address'])) : ?>
-	<div class="db-field db-connect">
-  		<?php print render($content['field_address']); ?>
-  	</div>
-<?php endif; ?>
-
-<?php if (!empty ($content['field_moreinfo'])) : ?>
-	<div class="db-field db-more-info">
-  		<?php print render($content['field_moreinfo']); ?>
-  	</div>
-<?php endif; ?>
-
-<?php if (!empty ($content['field_availability'])) : ?>
-	<div class="db-field db-availability">
-  		<?php print render($content['field_availability']); ?>
-  	</div>
-<?php endif; ?>
-
-<?php if (!empty ($content['field_scope_note'])) : ?>
-  <div class="db-field db-scope-note">
-      <?php print render($content['field_scope_note']); ?>
-    </div>
 <?php endif; ?>
 
 <?php if (!empty ($content['taxonomy_vocabulary_1'])) : ?>
