@@ -9,10 +9,30 @@
 ?>
 
 
-<?php if (!empty ($content['field_dbaseurl'])) : ?>
-	<div class="db-field db-url">
-  		<?php print render($content['field_dbaseurl']); ?>
-  	</div>
+<div class="pull-right col-sm-4">
+  <div class="well">
+    <?php if (!empty ($content['field_dbaseurl'])) : ?>
+    	<div class="db-field db-url">
+      		<?php print render($content['field_dbaseurl']); ?>
+      	</div>
+    <?php endif; ?>
+    <?php if (!empty ($content['taxonomy_vocabulary_4'])) : ?>
+      <div class="db-field topic-list">
+          <?php print render($content['taxonomy_vocabulary_4']); ?>
+      </div>
+    <?php endif; ?>
+    <?php if (!empty ($content['field_technology_note'])) : ?>
+      <div class="db-field db-tech-note">
+          <?php print render($content['field_technology_note']); ?>
+        </div>
+    <?php endif; ?>
+  </div>
+</div>
+
+<?php if (!empty ($content['field_description'])) : ?>
+  <div class="db-field db-description">
+      <?php print render($content['field_description']); ?>
+    </div>
 <?php endif; ?>
 
 <?php if (!empty ($content['field_use'])) : ?>
@@ -27,12 +47,6 @@
   	</div>
 <?php endif; ?>
 
-<?php if (!empty ($content['field_description'])) : ?>
-	<div class="db-field db-description">
-  		<?php print render($content['field_description']); ?>
-  	</div>
-<?php endif; ?>
-
 <?php if (!empty ($content['field_moreinfo'])) : ?>
 	<div class="db-field db-more-info">
   		<?php print render($content['field_moreinfo']); ?>
@@ -43,6 +57,12 @@
 	<div class="db-field db-availability">
   		<?php print render($content['field_availability']); ?>
   	</div>
+<?php endif; ?>
+
+<?php if (!empty ($content['field_scope_note'])) : ?>
+  <div class="db-field db-scope-note">
+      <?php print render($content['field_scope_note']); ?>
+    </div>
 <?php endif; ?>
 
 <?php if (!empty ($content['taxonomy_vocabulary_1'])) : ?>
