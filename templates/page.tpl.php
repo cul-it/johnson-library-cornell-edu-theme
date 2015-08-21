@@ -14,7 +14,7 @@
     <div class="row">
       <div class="cornell-logo">
         <div class="cu-logo hidden-xs">
-          <img src="/sites/all/themes/johnsonlibrary/img/layout/johnson-cornell.gif" alt="JOHNSON Cornell University">
+          <img src="/sites/all/themes/johnsonlibrary/img/layout/Johnson_Cornell.simple.newseal.svg" alt="JOHNSON Cornell University">
           <a id="insignia-link" href="http://www.cornell.edu/">Cornell Insignia</a>
           <div class="unit-signature-links">
             <a id="unit-link" href="http://johnson.cornell.edu/">Johnson</a>
@@ -22,7 +22,7 @@
           </div>
         </div>
         <div class="mobile-logo visible-xs">
-          <a href="http://johnson.cornell.edu"><img src="/sites/all/themes/johnsonlibrary/img/layout/johnson-cornell-sm.gif" alt="JOHNSON Cornell University"></a>
+          <a href="http://johnson.cornell.edu"><img src="/sites/all/themes/johnsonlibrary/img/layout/Johnson_Cornell.simple.newseal.svg" alt="JOHNSON Cornell University"></a>
         </div>
       </div>
       <div class="search-box">
