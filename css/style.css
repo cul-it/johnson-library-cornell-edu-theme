@@ -7705,8 +7705,11 @@ body.admin-menu {
     font-size: 24px;
     margin-top: 0; }
 
-.view-database-topics .database-item h2 {
-  font-size: 18px; }
+.view-database-topics .database-item {
+  padding: .5em 0; }
+  .view-database-topics .database-item h2 {
+    font-size: 20px;
+    margin-bottom: 0; }
 
 .faq-item {
   padding: 1em 0 .5em 0; }
