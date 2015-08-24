@@ -7709,7 +7709,10 @@ body.admin-menu {
   padding: .5em 0; }
   .view-database-topics .database-item h2 {
     font-size: 20px;
-    margin-bottom: 0; }
+    margin-bottom: .15em; }
+  .view-database-topics .database-item .connect-link {
+    font-size: 14px;
+    margin-left: 1em; }
 
 .faq-item {
   padding: 1em 0 .5em 0; }
