@@ -20,6 +20,7 @@
       <?php if (!empty ($content['field_status'])) : ?>
         <div class="db-field status-list">
             <?php print render($content['field_status']); ?>
+            <?php print render($content['field_icon']); ?>
         </div>
       <?php endif; ?>
       <?php if (!empty ($content['field_technology_note'])) : ?>
