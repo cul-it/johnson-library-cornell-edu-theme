@@ -20,7 +20,14 @@
       <?php if (!empty ($content['field_status'])) : ?>
         <div class="db-field status-list">
             <?php print render($content['field_status']); ?>
-            <?php print render($content['field_icon']); ?>
+
+            <?php
+            $term=taxonomy_term_load($node->field_status['und'][0]['tid']);
+            $result=field_view_field('taxonomy_term',$term,'field_icon');
+            echo render($result)
+            ?>
+
+
         </div>
       <?php endif; ?>
       <?php if (!empty ($content['field_technology_note'])) : ?>
