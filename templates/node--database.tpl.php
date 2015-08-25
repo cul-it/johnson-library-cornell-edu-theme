@@ -26,7 +26,7 @@
             dsm($term);
             $result=field_view_field('taxonomy_term',$term,'field_icon');
             dsm($result);
-            echo render($result)
+            echo render($result);
             ?>
 
 
