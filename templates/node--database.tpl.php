@@ -23,9 +23,9 @@
 
             <?php
             $term=taxonomy_term_load($node->field_status['und'][0]['tid']);
-            dsm($term);
+            print_r($term);
             $result=field_view_field('taxonomy_term',$term,'field_icon');
-            dsm($result);
+            print_r($result);
             echo render($result);
             ?>
 
