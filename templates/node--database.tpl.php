@@ -33,8 +33,11 @@
               print_r($tax);
               $class = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon_class');
               print_r($class);
-              $name = field_view_field('taxonomy_term', $tax['taxonomy_term'], 'name');
+              $classname = $class[0]['safe_value'];
+              $name = $tax['taxonomy_term']->name;
               print_r($name);
+              $output = t('<i class="@class"></i> @name', array('@class' => $classname, '@name' => $name));
+              echo $output;
 
             }
             // $term = taxonomy_term_load($tid);
