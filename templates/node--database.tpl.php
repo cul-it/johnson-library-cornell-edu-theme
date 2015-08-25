@@ -19,8 +19,6 @@
       <?php endif; ?>
       <?php if (!empty ($content['field_status'])) : ?>
         <div class="db-field status-list">
-            <?php print render($content['field_status']); ?>
-
             <?php
             $status = field_get_items('node', $node, 'field_status');
             foreach ($status as $tax) {
