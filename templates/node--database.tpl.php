@@ -31,11 +31,9 @@
             $status = field_get_items('node', $node, 'field_status');
             foreach ($status as $tax) {
               print_r($tax);
-              $icon = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon');
-              print_r($icon);
               $class = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon_class');
               print_r($class);
-              $name = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'name');
+              $name = field_view_field('taxonomy_term', $tax['taxonomy_term'], 'name');
               print_r($name);
 
             }
