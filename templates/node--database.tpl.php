@@ -25,7 +25,7 @@
               $class = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon_class');
               $classname = $class[0]['safe_value'];
               $name = $tax['taxonomy_term']->name;
-              $output = t('<i class="@class"></i> @name', array('@class' => $classname, '@name' => $name));
+              $output = t('<p><i class="@class"></i> @name</p>', array('@class' => $classname, '@name' => $name));
               echo $output;
             }
             ?>
