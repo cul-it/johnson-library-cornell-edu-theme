@@ -24,7 +24,7 @@
             <?php
             $term=taxonomy_term_load($node->field_status['und'][0]['tid']);
             print_r($term);
-            $result=field_view_field('taxonomy_term',$term,'field_icon');
+            $result=field_view_field('taxonomy_term',$term,'field_icon','Plain text');
             print_r($result);
             echo render($result);
             ?>
