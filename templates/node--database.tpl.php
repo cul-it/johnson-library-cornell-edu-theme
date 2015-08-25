@@ -23,10 +23,16 @@
 
             <?php
             $term=taxonomy_term_load($node->field_status['und'][0]['tid']);
-            print_r($term);
+            //print_r($term);
             $result=field_view_field('taxonomy_term',$term,'field_icon','Plain text');
-            print_r($result);
+            //print_r($result);
             echo render($result);
+
+            $tid = field_get_items('node', $node, 'field_status');
+            $term = taxonomy_term_load($tid);
+            $field = field_get_items('taxonomy_term', $term, 'field_icon');
+            $output = field_view_value('taxonomy_term', $term, 'field_icon', $field[0]);
+            print_r($output);
             ?>
 
 
