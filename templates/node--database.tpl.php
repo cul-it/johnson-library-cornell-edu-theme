@@ -36,9 +36,9 @@
               echo $name[0]['value'];
 
               $output = field_view_value('taxonomy_term', $tax['taxonomy_term'], 'field_icon', 0);
-              echo $output;
+              print_r($output);
               $output = field_view_value('taxonomy_term', $tax['taxonomy_term'], 'name', 0);
-              echo $output;
+              print_r($output);
 
             }
             // $term = taxonomy_term_load($tid);
