@@ -31,14 +31,11 @@
             $status = field_get_items('node', $node, 'field_status');
             foreach ($status as $tax) {
               $icon = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon');
-              echo $icon[0]['value'];
-              $name = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon_class');
-              echo $name;
-
-              $output = field_view_value('taxonomy_term', $tax['taxonomy_term'], 'field_icon_class', 0);
-              print_r($output);
-              $output = field_view_value('taxonomy_term', $tax['taxonomy_term'], 'name', 0);
-              print_r($output);
+              print_r($icon);
+              $class = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon_class');
+              print_r($class);
+              $name = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'name');
+              print_r($name);
 
             }
             // $term = taxonomy_term_load($tid);
