@@ -29,10 +29,17 @@
             echo render($result);
 
             $status = field_get_items('node', $node, 'field_status');
-            print_r($status);
             foreach ($status as $tax) {
-              $field = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon');
-              print_r($field);
+              $icon = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon');
+              echo $icon[0]['value'];
+              $name = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'name');
+              echo $name[0]['value'];
+
+              $output = field_view_value('taxonomy_term', $tax['taxonomy_term'], 'field_icon', 0);
+              echo $output;
+              $output = field_view_value('taxonomy_term', $tax['taxonomy_term'], 'name', 0);
+              echo $output;
+
             }
             // $term = taxonomy_term_load($tid);
             // print_r($term);
