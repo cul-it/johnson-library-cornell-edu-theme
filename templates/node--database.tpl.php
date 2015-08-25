@@ -30,7 +30,9 @@
 
             $tid = field_get_items('node', $node, 'field_status');
             $term = taxonomy_term_load($tid);
+            print_r($term);
             $field = field_get_items('taxonomy_term', $term, 'field_icon');
+            print_r($field);
             $output = field_view_value('taxonomy_term', $term, 'field_icon', $field[0]);
             print_r($output);
             ?>
