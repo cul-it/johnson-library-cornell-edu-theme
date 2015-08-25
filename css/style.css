@@ -7833,9 +7833,9 @@ body.admin-menu {
 
 .status-list {
   margin-bottom: 1em; }
-  .status-list .field-item {
-    margin: 0 0 .5em 0;
-    font-size: 18px; }
+  .status-list i {
+    width: 1.5em;
+    text-align: center; }
 
 .connect-box {
   float: none !important;
