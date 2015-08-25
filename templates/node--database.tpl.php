@@ -24,7 +24,7 @@
             <?php
             $term=taxonomy_term_load($node->field_status['und'][0]['tid']);
             //print_r($term);
-            $result=field_view_field('taxonomy_term',$term,'field_icon','Plain text');
+            $result=field_view_field('taxonomy_term',$term,'field_icon_class','Plain text');
             //print_r($result);
             echo render($result);
 
@@ -32,10 +32,10 @@
             foreach ($status as $tax) {
               $icon = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon');
               echo $icon[0]['value'];
-              $name = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'name');
-              echo $name[0]['value'];
+              $name = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon_class');
+              echo $name;
 
-              $output = field_view_value('taxonomy_term', $tax['taxonomy_term'], 'field_icon', 0);
+              $output = field_view_value('taxonomy_term', $tax['taxonomy_term'], 'field_icon_class', 0);
               print_r($output);
               $output = field_view_value('taxonomy_term', $tax['taxonomy_term'], 'name', 0);
               print_r($output);
