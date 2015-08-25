@@ -22,30 +22,14 @@
             <?php print render($content['field_status']); ?>
 
             <?php
-            $term=taxonomy_term_load($node->field_status['und'][0]['tid']);
-            //print_r($term);
-            $result=field_view_field('taxonomy_term',$term,'field_icon_class','Plain text');
-            //print_r($result);
-            echo render($result);
-
             $status = field_get_items('node', $node, 'field_status');
             foreach ($status as $tax) {
-              print_r($tax);
               $class = field_get_items('taxonomy_term', $tax['taxonomy_term'], 'field_icon_class');
-              print_r($class);
               $classname = $class[0]['safe_value'];
               $name = $tax['taxonomy_term']->name;
-              print_r($name);
               $output = t('<i class="@class"></i> @name', array('@class' => $classname, '@name' => $name));
               echo $output;
-
             }
-            // $term = taxonomy_term_load($tid);
-            // print_r($term);
-            // // $field = field_get_items('taxonomy_term', $term, 'field_icon');
-            // print_r($field);tus
-            // $output = field_view_value('taxonomy_term', $term, 'field_icon', $field[0]);
-            // print_r($output);
             ?>
 
 
