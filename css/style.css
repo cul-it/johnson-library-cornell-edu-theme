@@ -7730,7 +7730,7 @@ body.admin-menu {
   margin-bottom: .5em; }
 
 .db-topics {
-  margin-bottom: 1em; }
+  margin: 1em 0; }
   .db-topics .label-topic {
     color: #333;
     font-size: 14px;
