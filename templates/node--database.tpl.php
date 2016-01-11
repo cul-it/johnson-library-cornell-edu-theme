@@ -64,9 +64,3 @@
       <?php print render($content['taxonomy_vocabulary_1']); ?>
   </div>
 <?php endif; ?>
-
-<?php if (!empty ($content['field_search_terms'])) : ?>
-  <div class="db_search_terms">
-      <?php print render($content['field_search_terms']); ?>
-  </div>
-<?php endif; ?>
