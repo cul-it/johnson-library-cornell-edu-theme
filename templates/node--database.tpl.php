@@ -66,7 +66,7 @@
 <?php endif; ?>
 
 <?php if (!empty ($content['field_search_terms'])) : ?>
-  <div class="hidden">
+  <div class="db_search_terms">
       <?php print render($content['field_search_terms']); ?>
   </div>
 <?php endif; ?>
