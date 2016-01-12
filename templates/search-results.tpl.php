@@ -33,7 +33,7 @@
   <h2><?php print t('Your search yielded no results.');?></h2>
   <ul>
 	<li>Check if your spelling is correct.</li>
-	<li>If you are looking for a book or journal, try searching the catalog.</li>
+	<li>If you are looking for a book or journal, try searching the <a href="http://newcatalog.library.cornell.edu">catalog</a>.</li>
 	<li>Remove quotes around phrases to search for each word individually. bike shed will often show more results than "bike shed".</li>
 	<li>Consider loosening your query with OR. bike OR shed will often show more results than bike shed.</li>
 	<li>Contact the library team for help <a href="mailto:mgtref@cornell.edu">mgtref@cornell.edu</a>.</li>
