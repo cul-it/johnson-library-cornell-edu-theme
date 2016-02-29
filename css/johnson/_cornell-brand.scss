@@ -4,6 +4,15 @@
 		float: right;
 		width: 100%;
 	}
+	//override bootstrap btn-primary in top search box
+	.btn-primary {
+		background-color: $cornell-primary;
+		border-color: $cornell-primary;
+	}
+	.btn-primary:hover {
+		background-color: $cornell-primary-hover;
+		border-color: $cornell-primary-hover;
+	}
 }
 
 .cornell-brand {
