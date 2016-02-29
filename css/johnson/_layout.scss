@@ -70,6 +70,12 @@
 }
 .main-content {
 	background: white;
+	// fix bootstrap sticking header and footer in node.tpl.php
+	footer {
+		border: 0;
+		padding: 0;
+		background: inherit;
+	}
 }
 .page-header {
 	margin: 0;

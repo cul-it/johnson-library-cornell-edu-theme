@@ -234,6 +234,10 @@ img {
 
 .main-content {
   background: white; }
+  .main-content footer {
+    border: 0;
+    padding: 0;
+    background: inherit; }
 
 .page-header {
   margin: 0;
