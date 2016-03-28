@@ -33,7 +33,7 @@
 	}
 	.view-footer {
 		clear: both;
-		padding: 0 10px 5px 0;
+		padding: 0 10px 5px 10px;
 	}
 }
 
@@ -197,9 +197,6 @@
 			float: left;
 			margin: 5px;
 		}
-		.view-footer {
-			text-align: right;
-		}
 	}
 	.page-search {
 		.main-text {
@@ -228,6 +225,10 @@
 	.hours {
 		.all-hours-link {
 			border-left: 1px solid $pale-tan;
+		}
+		.view-footer {
+			text-align: right;
+			padding: 
 		}
 	}
 }
