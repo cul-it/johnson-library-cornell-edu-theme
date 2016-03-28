@@ -468,7 +468,6 @@ footer {
     margin-left: .5em; }
   .hours .view-footer {
     clear: both;
-    float: right;
     padding: 0 10px 5px 0; }
 
 .featured-content {
@@ -568,6 +567,8 @@ footer {
     .hours .all-hours-link {
       float: left;
       margin: 5px; }
+    .hours .view-footer {
+      text-align: right; }
 
   .page-search .main-text .search-form {
     width: 50%; }
