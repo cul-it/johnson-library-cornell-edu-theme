@@ -449,7 +449,6 @@ footer {
   display: inline-block;
   margin-top: -1px; }
   .hours .today-hours {
-    float: left;
     padding: 5px; }
     .hours .today-hours span {
       font-size: 14px;
@@ -585,7 +584,9 @@ footer {
   .hours .all-hours-link {
     border-left: 1px solid #efede9; }
   .hours .view-footer {
-    text-align: right; } }
+    text-align: right; }
+  .hours .todays-hours {
+    float: left; } }
 .resource-tabs .nav-tabs {
   border-bottom: 0;
   margin-bottom: 0; }

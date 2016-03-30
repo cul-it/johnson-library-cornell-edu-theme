@@ -7,7 +7,6 @@
 	display: inline-block;
 	margin-top: -1px;
 	.today-hours {
-		float: left;
 		padding: 5px;
 		span {
 			font-size: 14px;
@@ -229,6 +228,9 @@
 		}
 		.view-footer {
 			text-align: right;
+		}
+		.todays-hours {
+			float: left;
 		}
 	}
 }
