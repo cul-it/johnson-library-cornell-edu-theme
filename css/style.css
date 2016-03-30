@@ -454,11 +454,12 @@ footer {
     .hours .today-hours span {
       font-size: 14px;
       text-transform: uppercase;
-      margin: 0 .75em 0 0;
+      margin: 0 .5em 0 0;
       font-weight: 700;
       line-height: 1.4em; }
     .hours .today-hours i {
-      margin-right: .2em; }
+      margin-right: .2em;
+      font-size: 150%; }
   .hours .all-hours-link {
     padding-left: 1em;
     padding: 5px 5px 5px 10px; }
