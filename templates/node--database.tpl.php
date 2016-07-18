@@ -64,3 +64,10 @@
       <?php print render($content['taxonomy_vocabulary_1']); ?>
   </div>
 <?php endif; ?>
+
+<!-- For indexing, not display -->
+<?php if (!empty ($content['field_search_terms'])) : ?>
+  <div class="db-field search-terms hidden">
+      <?php print render($content['field_search_terms']); ?>
+  </div>
+<?php endif; ?>
