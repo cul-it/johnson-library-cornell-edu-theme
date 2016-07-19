@@ -35,7 +35,7 @@
     <!-- Piwik search terms -->
     <script type="text/javascript">
       var _paq = _paq || [];
-      _paq.push(['trackSiteSearch',false,false]);
+      _paq.push(['trackSiteSearch',keyword,false,0]);
       _paq.push(['enableLinkTracking']);
       (function() {
         var u="//webanalytics.library.cornell.edu/";
