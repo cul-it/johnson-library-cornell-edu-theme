@@ -28,9 +28,7 @@
   <?php print $page_bottom; ?>
 
   <?php
-    $url = 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-
-    if (strpos($url,'search_by_page') !== false) {
+    if(strpos($_SERVER['REQUEST_URI'], 'search_by_page') !== false){
   ?>
     <!-- Piwik search terms -->
     <script type="text/javascript">
