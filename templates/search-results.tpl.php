@@ -44,10 +44,8 @@
 <script type="text/javascript">
   var _paq = _paq || [];
   _paq.push(['trackSiteSearch',false,false]);
-  _paq.push(['enableLinkTracking']);
   (function() {
     var u="//webanalytics.library.cornell.edu/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['setSiteId', 510]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
