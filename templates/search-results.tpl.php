@@ -39,20 +39,3 @@
 	<li>Contact the library team for help <a href="mailto:mgtref@cornell.edu">mgtref@cornell.edu</a>.</li>
   </ul>
 <?php endif; ?>
-
-<!-- Piwik search terms -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  _paq.push(['trackSiteSearch',false,false]);
-  (function() {
-    var u="//webanalytics.library.cornell.edu/";
-    _paq.push(['setSiteId', 510]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<noscript><p><img src="//webanalytics.library.cornell.edu/piwik.php?idsite=510" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
-
-
-
