@@ -109,7 +109,7 @@
             </div>
           </div>
         </div>
-      </div>
+     
       <div role="tabpanel" class="tab-pane fade" id="books">
         <?php print render($page['books-tab']); ?>
       </div>
