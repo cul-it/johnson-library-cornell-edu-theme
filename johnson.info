@@ -15,9 +15,9 @@ regions[sidebar]        = 'Sidebar'
 regions[footer]   		= 'Footer'
 
 ; Tab regions
-regions[databases-search] = 'Databases Tab Search'
-regions[databases-popular] = 'Databases Popular Search'
-regions[databases-topics] = 'Databases Topics Search'
+regions[databases-search] = 'Databases Tab - Search'
+regions[databases-popular] = 'Databases Tab - Popular'
+regions[databases-topics] = 'Databases Tab - Topics'
 regions[books-tab]  	= 'Books and Journals Tab'
 regions[guides-tab]  	= 'Guides and FAQ Tab'
 regions[help-tab]  		= 'Help Tab'
