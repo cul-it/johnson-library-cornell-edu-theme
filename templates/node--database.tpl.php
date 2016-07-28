@@ -65,7 +65,7 @@
   </div>
 <?php endif; ?>
 
-<?php if (!empty ($content['field_video_embed_code  '])) : ?>
+<?php if (!empty ($content['field_video_embed_code'])) : ?>
   <div class="db-field db-video">
       <?php print render($content['field_video_embed_code']); ?>
   </div>
