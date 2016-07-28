@@ -682,7 +682,6 @@ footer {
   .resource-content .panel-body .form-control,
   .panel .tab-content .form-control,
   .panel .panel-body .form-control {
-    margin-bottom: 2em;
     width: 100%; }
 
 .front .tab-content {
@@ -698,6 +697,9 @@ footer {
 
 .region-databases-search .input-group-btn {
   vertical-align: top; }
+.region-databases-search .btn-primary {
+  background: #b41b1d;
+  border-color: #b41b1d; }
 
 .panel-heading .fa-chevron-down {
   margin-left: .5em;

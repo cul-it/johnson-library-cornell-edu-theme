@@ -95,7 +95,6 @@
 			}
 		}
 		.form-control {
-			margin-bottom: 2em;
 			width: 100%;
 		}
 	}
@@ -113,14 +112,6 @@
 		font-size: 14px !important;
 	}
 }
-// #databases,
-// #databases-collapse {
-// 	.col-sm-4 {
-// 		h2 {
-// 			margin-top: 2em;
-// 		}
-// 	}
-// }
 #databases,
 #databases-collapse {
 	.col-sm-4 {
@@ -133,6 +124,10 @@
 .region-databases-search {
 	.input-group-btn {
 		vertical-align: top;
+	}
+	.btn-primary {
+		background: $johnson-red;
+		border-color: $johnson-red;
 	}
 }
 
