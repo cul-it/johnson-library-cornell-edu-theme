@@ -65,6 +65,12 @@
   </div>
 <?php endif; ?>
 
+<?php if (!empty ($content['field_video_embed_code  '])) : ?>
+  <div class="db-field db-video">
+      <?php print render($content['field_video_embed_code']); ?>
+  </div>
+<?php endif; ?>
+
 <!-- For indexing, not display -->
 <?php if (!empty ($content['field_search_terms'])) : ?>
   <div class="db-field search-terms hidden">
