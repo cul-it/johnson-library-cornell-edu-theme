@@ -698,7 +698,10 @@ footer {
 
 #databases .col-sm-4 h2:first-child,
 #databases-collapse .col-sm-4 h2:first-child {
-  margin-top: 0; }
+  margin-top: 0 !important; }
+
+.region-databases-search .input-group-btn {
+  vertical-align: top; }
 
 .panel-heading .fa-chevron-down {
   margin-left: .5em;

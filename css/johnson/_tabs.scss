@@ -125,8 +125,14 @@
 #databases-collapse {
 	.col-sm-4 {
 		h2:first-child {
-			margin-top: 0;
+			margin-top: 0 !important;
 		}
+	}
+}
+// Search by Page databases search
+.region-databases-search {
+	.input-group-btn {
+		vertical-align: top;
 	}
 }
 
@@ -181,6 +187,7 @@
 .see-all {
 	margin: 2em 0 0 0;
 }
+
 
 // MEDIA QUERIES
 // -------------------------
