@@ -692,13 +692,9 @@ footer {
 #databases .btn-search {
   font-size: 14px !important; }
 
-#databases .col-sm-4 h2,
-#databases-collapse .col-sm-4 h2 {
-  margin-top: 2em; }
-
 #databases .col-sm-4 h2:first-child,
 #databases-collapse .col-sm-4 h2:first-child {
-  margin-top: 0 !important; }
+  margin-top: 0; }
 
 .region-databases-search .input-group-btn {
   vertical-align: top; }
