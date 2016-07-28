@@ -92,7 +92,24 @@
     <!-- Tab panes -->
     <div class="tab-content">
       <div role="tabpanel" class="tab-pane fade in" id="databases">
-        <?php print render($page['databases-tab']); ?>
+        <h1 class="sr-only">Databases</h1>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="gutter">
+              <?php print render($page['databases-search']); ?>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="gutter">
+              <?php print render($page['databases-popular']); ?>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="gutter">
+              <?php print render($page['databases-topics']); ?>
+            </div>
+          </div>
+        </div>
       </div>
       <div role="tabpanel" class="tab-pane fade" id="books">
         <?php print render($page['books-tab']); ?>
